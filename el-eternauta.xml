@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>El Eternauta</title>
+            <author>Héctor G. Oesterheld</author>
+            <author>Solano López</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ediciones Record</publisher>
+            <pubPlace>Buenos Aires</pubPlace>
+            <date></date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>VERSION ORIGINAL</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <div type="titlePage" xml:id="eg_0001">
+           <head>el eternauta</head>
+           <cbml:caption rendition="#uc #center">
+              héctor g. oesterheld / solano lópez
+           </cbml:caption>
+        </div>
+        <pb/>
+        <div type="preface" xml:id="eg_0002">
+           <p>
+              Siempre me fascinó la idea del Robinson Crusoe. Me lo
+              regalaron siendo muy chico, debo haberlo leído más de veinte
+              veces. EL ETERNAUTA, inicialmente, fue mi versión del Ro-
+              binson. La soledad del hombre, rodeado, preso, no ya por el
+              mar sino por la muerte. Tampoco el hombre solo de Robinson,
+              sino el hombre con familia, con amigos. Por eso la partida 
+              de truco, por eso la pequeña familia que duerme en el chalet 
+              de Vicente López, ajena a la invasión que se viene. Ese fue el 
+              planteo. Lo demás… lo demás creció solo, como crece sola, 
+              creemos, la vida de cada día. Publicado en un semanario, 
+              EL ETERNAUTA se fue construyendo semana a semana; había, 
+              sí, una idea general, pero la realidad concreta de cada entre-
+              ga la modificaba constantemente. Aparecieron así situaciones 
+              y personajes que ni soñé al principio. Como el “mano” y su 
+              muerte. O como el combate en River Plate. O como Franco, 
+              el tornero, que termina siendo más héroe que ninguno de los 
+              que inciiaron la historia. Ahora que lo pienso, se me ocurre 
+              que quizá por esta falta de héroe central, EL ETERNAUTA es 
+              una de mis historias que recuerdo con más placer. El héroe 
+              verdadero de EL ETERNAUTA es un héroe colectivo, un grupo 
+              humano. Refleja así, aunque sin intención previa, mi sentir 
+              íntimo: el único héroe válido es el héroe “en grupo”, nunca 
+              el héroe individual, el héroe solo.  
+           </p>
+           <fw type="sig" place="bottom">héctor g. oesterheld</fw>
+           <cbml:caption>
+              héctor g. oesterheld                 
+           </cbml:caption>
+           <div type="panelGrp" xml:id="eg_0003">
+           <cbml:panel n="1" characters="#narrator">
+              <cbml:caption who="#narrator">
+                 ERA DE MADRUGADA, APENAS LAS TRES. NO HABÍA NINGU-
+                 NA LUZ EN LAS CASAS DE LA VENCIDAD: 
+                 LA VENTANA DE MI CUAR-
+                 TO DE TRABA-
+                 JO ERA LA ÚNICA ILUMINADA.                   
+              </cbml:caption>
+              <note type="panelDesc"> Houses on two quiet suburban streets as seen from their intersection </note> 
+              <cbml:caption who="#narrator">
+                 HACÍA FRÍO, PERO A VECES ME GUSTA TRABAJAR CON LA VENTANA ABIERTA:
+                 MIRAR LAS ESTRELLAS DESCANSA…                  
+              </cbml:caption>               
+           </cbml:panel>           
+           </div>
+        </div>
+     </front>
+     <pb/>
+     <body>
+           <div type="panelGrp" xml:id="eg_0004">
+              <cbml:panel n="1" characters="#narrator">
+                 <cbml:caption who="#narrator">
+                    ERA DE MADRUGADA, APENAS LAS TRES. NO HABÍA NINGU-
+                    NA LUZ EN LAS CASAS DE LA VENCIDAD: 
+                    LA VENTANA DE MI CUAR-
+                    TO DE TRABA-
+                    JO ERA LA ÚNICA ILUMINADA.                   
+                 </cbml:caption>
+                 <note type="panelDesc"> Houses on two quiet suburban streets as seen from their intersection </note> 
+                 <cbml:caption who="#narrator">
+                    HACÍA FRÍO, PERO A VECES ME GUSTA TRABAJAR CON LA VENTANA ABIERTA:
+                    MIRAR LAS ESTRELLAS DESCANSA…                  
+                 </cbml:caption> 
+              </cbml:panel>
+              <cbml:panel n="2" characters="#narrator">
+                 <cbml:caption who="#narrator"> 
+                    Y APACIGUA EL ÁNIMO, COMO SI UNO ESCU-
+                    CHARA UNA MELODÍA MUY VIEJA Y MUY
+                    QUERIDA. EL ÚNICO RUMOR QUE TURBABA 
+                    EL SILENCIO ERA EL LEVE ROZAR DE LA 
+                    PLUMA SOBRE EL PAPEL. DE PRONTO…                                                       
+                 </cbml:caption>
+                 <note type="panelDesc"> Backlighted scene shows silhouette of narrator sitting at a desk seen from outside through a window</note> 
+              </cbml:panel>
+              <cbml:panel n="3" characters="#narrator">
+                 <cbml:balloon type="thought" who="#narrator"> 
+                     ¿Y ESO?
+                 </cbml:balloon>
+                 <cbml:caption who="#narrator">   
+                    DE PRONTO UN CRUJIDO, UN CRUJIDO EN 
+                    LA SILLA ENFRENTE MÍO, LA SILLA QUE
+                    SIEMPRE OCUPAN LOS QUE VIENEN A
+                    CHARLAR CONMIGO.
+                 </cbml:caption>
+                 <note type="panelDesc"> Narrator is seen from behind sitting in his studio. 
+                    The top of an empty chair is seen across from him at other side of desk</note> 
+              </cbml:panel>
+              <cbml:panel n="4" characters="#narrator">
+                 <cbml:balloon type="thought" who="#narrator"> 
+                     QUÉ RUIDO MÁS
+                     RARO… CRUJIÓ 
+                     IGUAL COMO SO
+                     ALGUIEN SE HU-
+                     BIERA SENTADO…
+                 </cbml:balloon>
+                 <note type="panelDesc"> Narrator is seen in half-frame from his front left</note> 
+              </cbml:panel>
+              <cbml:panel n="5" characters="#narrator">
+                    <cbml:balloon type="speech" who="#narrator"> 
+                       PERO… 
+                    </cbml:balloon>
+                 <note type="panelDesc"> Close-up of narrator's head with surprised expression on his face </note> 
+              </cbml:panel>
+              <cbml:panel n="6" characters="#narrator #eternauta">
+                 <note type="panelDesc"> Outline of body of El Eternauta is seen as it starts to materialize 
+                 on the chair across from the narrator, who's profile is seen at the right of the frame</note> 
+              </cbml:panel>
+              <cbml:panel n="7" characters="#narrator">
+                 <note type="panelDesc"> Frontal close-up of narrator's head, with very surprised look on his face</note> 
+              </cbml:panel>
+              <cbml:panel n="8" characters="#eternauta">
+                 <note type="panelDesc"> Outline of body of El Eternauta is clearer as it continues to materialize 
+                    on the chair across from the narrator</note>                  
+              </cbml:panel>
+              <cbml:panel n="9" characters="#eternauta">
+                 <note type="panelDesc"> Half-frame outline of body of El Eternauta is much clearer as it continues to materialize 
+                    on the chair across from the narrator</note>  
+                 <fw type="pageNum" place="lower-right">
+                    1
+                 </fw>
+              </cbml:panel>
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0005">
+           <cbml:panel n="1" characters="#eternauta">
+              <note type="panelDesc"> Half-frame of clear picture of El Eternauta sitting 
+                 on the chair across from the narrator</note> 
+           </cbml:panel>
+           <cbml:panel n="2" characters="#narrator #eternauta">
+              <cbml:balloon type="speech" who="#narrator"> 
+                 ES COMO PA-
+                 RA CREER 
+                 EN FANTAS-
+                 MAS…                 
+              </cbml:balloon>
+              <cbml:caption who="#narrator"> 
+                 PERO NO, AQUEL HOMBRE NO
+                 TENÍA NADA DE FANTASMAL…                 
+              </cbml:caption>
+              <note type="panelDesc"> El Eternauta's head is seen from above and behind, with narrator
+                 sitting at desk across from him</note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#narrator #eternauta">
+              <cbml:caption who="#narrator">   
+                 AQUELLAS MANOS DE PIEL AL-
+                 GO RUGOSA, CON LAS VENAS
+                 NETAMENTE MARCADAS, ERAN
+                 BIEN REALES, BIEN DE ESTE MUNDO.
+              </cbml:caption>
+              <note type="panelDesc"> El Eternauta's hand is seen in the front of the plane while 
+                 Narrator stares at it from above</note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#narrator #eternauta">
+              <cbml:caption who="#narrator">   
+                 TAMBIÉN LA ROPA QUE VESTÍA ERA
+                 ALGO CONCRETO, TANGIBLE. AUNQUE
+                 DE UN MATERIAL COMO NUNCA VI; 
+                 NO SE PARECÍA NI A LA LANA NI AL
+                 ALGODÓN, NI AL NYLON NI A NINGÚN
+                 OTRO PLÁSTICO.
+              </cbml:caption>              
+              <note type="panelDesc"> Narrator is seen in frontal half-frame as he examines El Eternauta's
+                 sleeve</note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#narrator #eternauta">              
+              <cbml:caption who="#narrator">   
+                 ALCÉ LOS OJOS, Y MI MIRADA ENCONTRÓ LA SUYA.
+                 APARTÓ LOS OJOS, Y POR UN MOMENTO MIRÓ LOS
+                 MUEBLES…                 
+              </cbml:caption> 
+              <note type="panelDesc"> Side half-frame of narrator and El Eternauta staring at each other
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#narrator #eternauta">
+              <cbml:caption who="#narrator">   
+                 …LOS LIBROS, LAS FOTOS EN LA PARED.             
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 ESTOY EN LA <emph rendition="#b">TIERRA</emph>, SUPONGO…                
+              </cbml:balloon>
+              <cbml:caption who="#narrator">
+                 NO ATINÉ A CONTESTARLE.
+              </cbml:caption>
+              <cbml:caption who="#narrator">
+                 TAN 
+                 EXTRAÑA 
+                 HABÍA SIDO 
+                 SU APARICIÓN.
+                 PERO
+                 VOLVIÓ A 
+                 MIRARME
+                 Y NO SÉ 
+                 PORQUÉ,
+                 ME SENTÍ
+                 RARAMENTE
+                 RECONFOR-
+                 TADO.
+              </cbml:caption>
+              <cbml:caption who="#narrator">
+                 NO HE VISTO NUNCA MIRADA SEMEJANTE. LA
+                 MIRADA DE UN HOMBRE QUE HABÍA VISTO
+                 TANTO QUE HABÍA LLEGADO A COMPRENDER-
+                 LO TODO.                 
+              </cbml:caption>
+              <note type="panelDesc"> Left side of the frame shows El Eternauta speaking while sitting
+                 on the left. Narrator's silhouette is seen on the right of the frame, in the backlight.
+                 A caption separates it from the right side of the frame, where we see a Frontal close-up 
+                 of El Eternauta's head, with serene look on his face.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#narrator #eternauta">
+              <cbml:balloon type="speech" who="#eternauta">
+                 NO NECESITAS CONTESTARME, YA SÉ
+                 QUE ESTOY EN LA <emph rendition="#b">TIERRA.</emph> A MI-
+                 TAD DEL <emph rendition="#b">SIGLO XX</emph>, ALREDEDOR 
+                 DEL 1957.                                  
+              </cbml:balloon>
+              <cbml:caption who="#narrator">
+                 ESTO 
+                 ÚLTIMO  LO
+                 DIJO MIRAN-
+                 DO LOS
+                 LIBROS SO-
+                 BRE LA 
+                 MESA. Y LAS
+                 REVISTAS: 
+                 HABÍA UN
+                 MAGAZINE
+                 DE ACTUALI-
+                 DAD CON
+                 LA FOTO DE
+                 <emph rendition="#b">KRUSCHEV.</emph> 
+                 EN LA
+                 TAPA.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#eternauta">
+                 VEO QUE ESCRIBES MUCHO… ¿QUÉ HACES?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#narrator">
+                 ESTE… SOY GUIONISTA… GUIONISTA DE HISTO-
+                 RIETAS…                 
+              </cbml:balloon>
+              <note type="panelDesc"> Left side of panel shows lateral half-frame outline of body of El Eternauta is much clearer as it continues to materialize 
+              on the chair across from the narrator. A caption separates it from right side of panel,
+              where El Eternauta's head is seen from the side as he speaks to Narrator, in half-frame on the right.</note>
+           </cbml:panel> 
+           <cbml:panel n="8" characters="#eternauta">
+              <cbml:balloon type="speech" who="#eternauta">
+                 GUIONISTA DE 
+                 HISTORIETAS…
+                 ESTO SÍ QUE 
+                 ES UNA CASUA-
+                 LIDAD… ENTRE
+                 TANTAS OTRAS
+                 CASAS, VENIR
+                 A DAR JUSTA-
+                 MENTE CON 
+                 ÉSTA…
+              </cbml:balloon>
+              <fw type="pageNum" place="lower-right">
+                 2
+              </fw>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0006">
+           <cbml:panel n="1" characters="#narrator #eternauta">
+              <cbml:balloon type="speech" who="#narrator"> 
+                 ESTE… ¿QUIÉN
+                 ERES TÚ?                 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 <emph rendition="#b">HUM...</emph> NO
+                 ES FÁCIL
+                 CONTESTAR
+                 ESA PRE-
+                 GUNTA…
+              </cbml:balloon>              
+              <note type="panelDesc"> Half-frame of Narrator and El Eternauta speaking on opposite
+                 sides of the desk. El Eternauta has a pensive look on his face. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="2" characters="#eternauta">
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 PODRÍA DARTE CEN-
+                 TENARES DE NOMB-
+                 BRES. Y NO TE MEN-
+                 TIRÍA: TODOS HAN 
+                 SIDO MÍOS. PERO
+                 QUIZÁ EL QUE TE 
+                 RESULTE MÁS COM-
+                 PRENSIBLE…                 
+              </cbml:balloon>
+              <note type="panelDesc"> El Eternauta's head is seen frontally as he speaks. His right
+                 hand rests on his forehead, giving him a pensive look. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#narrator #eternauta">
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 …SEA EL QUE ME
+                 PUSO UNA ESPECIE
+                 DE FILÓSOFO, DE
+                 FINES DEL SIGLO
+                 <emph rendition="#b">XXI…</emph> EL <emph rendition="#b">“ETERNAU-
+                 TA”</emph> ME LLAMÓ ÉL…
+                 PARA EXPLICAR, EN 
+                 UNA SOLA PALABRA…                 
+              </cbml:balloon>  
+              <note type="panelDesc"> OSS of El Eternauta's head.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#eternauta">
+              <cbml:balloon type="speech" who="#eternauta">   
+                 …MI CONDICIÓN DE 
+                 NAVEGANTE DEL 
+                 TIEMPO, DE VIAJE-
+                 RO DE LA ETERNI-
+                 DAD. MI TRISTE Y
+                 DESOLADA CONDI-
+                 CIÓN DE PEREGRI-
+                 NO DE LOS SIGLOS…                 
+              </cbml:balloon>              
+              <note type="panelDesc"> CU of El Eternauta's head. </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#eternauta">              
+              <cbml:balloon type="speech" who="#eternauta">   
+                 HE TENIDO SUER-
+                 TE AL LLEGAR
+                 AQUÍ… PRESIENTO
+                 QUE, DESPUÉS DE
+                 TANTO TIEMPO
+                 PODRÉ DES-
+                 CANSAR UN
+                 POCO…                 
+              </cbml:balloon> 
+              <note type="panelDesc"> MS of El Eternauta sitting on chair. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#eternauta">
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 ¿ME DARÁS UN LUGAR,
+                 VERDAD? NO NECESI-
+                 TO OTRA COSA QUE 
+                 UN RINCÓN PARA RE-
+                 PONERME… PORQUE
+                 ESTOY CANSADO, TERRI-
+                 BLEMENTE CANSADO.
+                 Y NECESITO DESCAN-
+                 SAR, PARA PODER SE-
+                 GUIR BUSCANDO…                 
+              </cbml:balloon>          
+              <note type="panelDesc"> Frontal CU of El Eternauta's head while speaking. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#eternauta">
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 PORQUE ESO ES LO
+                 QUE HAGO SIEMPRE,
+                 BUSCAR, BUSCAR,
+                 BUSCAR…                 
+              </cbml:balloon>
+              <cbml:caption who="#narrator">
+                 HABÍA AHORA ANGUSTIA EN LA VOZ ANTES TAN SE-
+                 RENA, PERO MIS PENSAMIENTOS ESTABAN CON-
+                 CENTRADOS EN EL PROBLEMA QUE SE ME PRE-
+                 SENTABA. MI CASA ES PEQUEÑA, Y NO TENGO LU-
+                 GAR PARA HUÉSPEDES.                 
+              </cbml:caption>
+              <note type="panelDesc"> Left-side low-angle CU of El Eternauta's head while speaking and
+                 looking at the horizon. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="8" characters="#narrator #eternauta">
+              <cbml:balloon type="speech" who="#eternauta">
+                 SÉ LO QUE ESTÁS PENSANDO. AN-
+                 TES DE  RECHAZARME, ANTES DE 
+                 DECIRME QUE NO, DÉJAME CON-
+                 TARTE MI HISTORIA.
+                 CUANDO TE LA CUEN-
+                 RE, TODO SE TE EX
+                 PLICARÁ, INCLUSO…                 
+              </cbml:balloon>
+              <note type="panelDesc"> Eye-level lateral OSS shows right side of Narrator's face on the left
+                 of the frame and CU of El Eternauta's head on right side of panel.</note>
+           </cbml:panel> 
+           <cbml:panel n="9" characters="#eternauta">
+              <fw type="pageNum" place="lower-left">
+                 3
+              </fw>
+              <cbml:balloon type="speech" who="#eternauta">
+                 ESTA EXTRA-
+                 ÑA FORMA MÍA
+                 DE APARECER.
+                 Y ESTOY SEGU-
+                 RO QUE QUE-
+                 RRÁS AYUDAR-
+                 ME… ESCUCHA…                 
+              </cbml:balloon>
+              <cbml:caption who="#narrator">
+                 ESCUCHÉ; TODO EL
+                 RESTO DE AQUELLA…                 
+              </cbml:caption>
+              <cbml:caption who="#narrator">
+                 …NOCHE NO HICE OTRA
+                 COSA QUE ESCUCHAR.
+                 TAL COMO ÉL LO DI-
+                 JO, CUANDO CONCLU-
+                 YÓ YA TODO ESTABA
+                 CLARO. TAN CLARO
+                 COMO PARA LLENAR-
+                 ME DE PAVOR. TAN
+                 CLARO COMO PARA
+                 SENTIR POR ÉL UNA 
+                 ENORME PIEDAD. PERO
+                 NO ADELANTARÉ NADA:
+                 ¡QUIERO DAR A CONO-
+                 CER LA HISTORIA DEL 
+                 <emph rendition="#b">ETERNAUTA</emph>ETERNAUTA TAL COMO 
+                 ÉL ME LA CONTÓ!                  
+              </cbml:caption>
+           </cbml:panel>
+        </div>        
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0007">
+           <cbml:panel n="1" characters="#eternauta #juansalvo">
+              <cbml:balloon type="speech" who="#eternauta"> 
+                 AQUELLA NOCHE, LA NOCHE
+                 CUANDO MI VIDA DE SIEM-
+                 PRE QUEDÓ HECHA TRIZAS, 
+                 FUE UNA NOCHE DE INVIER-
+                 NO, MUCHO MÁS FRÍA
+                 QUE ÉSTA.                 
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">                  
+                 TAN FRÍA QUE 
+                 LA CASA TODA ES-
+                 TABA HERMÉTICA-
+                 MENTE CERRADA.
+                 TEN PRESENTE 
+                 ESTE DETALLE
+                 PORQUE DE ÉL,
+                 DE QUE LA CA-
+                 SA ESTUVIERA 
+                 COMPLETAMENTE 
+                 CERRADA, DEPEN-
+                 DIO TODO. TRES
+                 DE MIS VECINOS Y YO…
+              </cbml:caption>              
+              <note type="panelDesc"> Left side of the panel shows back-lighted lateral MCU of El Eternauta speaking. Small silhouette
+                 of the house and yard under the above caption, that separates both sides of the frame. On the right,
+                 the flashback starts: lateral MCU of Juan Salvo (former self of El Eternauta) with playing cards in his hands.
+              </note>
+              <cbml:caption who="#eternauta">
+                 …JUGÁBAMOS AL TRUCO.
+                 RECUERDO COMOSI FUERA
+                 AHORA MISMO LA ESPLÉN-
+                 DIDA MANO QUE ME TOCÓ 
+                 EN SUERTE…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 TENGO TREINTA Y TRES
+                 PARA EL ENVIDO, Y SOY
+                 MANO… NO PUEDO PERDER…
+                 PERO DEJARÉ QUE EN-
+                 VIDEN ELLOS…
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 TIRÉ UN INOFENSIVO CUATRO. FUE EL
+                 TURNO DE FAVALLI…                 
+              </cbml:caption>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#eternauta #favalli #juansalvo">
+              <cbml:caption who="#eternauta"> 
+                 FAVALLI, PROFESOR DE 
+                 FÍSICA, REPARTÍA SUS
+                 ENTUSIASMOS ENTRE 
+                 UN VELERITO QUE TENÍA
+                 EN OLIVOS Y LA ELEC-
+                 TRÓNICA, QUE PRACTICA-
+                 BA EN EL ESPACIO QUE
+                 YO LE HABÍA CEDIDO
+                 EN AQUELLA…                 
+              </cbml:caption>
+              <note type="panelDesc"> OSS MCU of Favalli smoking a cigarrette and staring at the cards
+                 in his hands. Backlighted right side of Juan Salvo's head in left side of frame.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#eternauta #lucasherbert #favalli #polsky #juansalvo">
+              <cbml:caption who="#eternauta"> 
+                 MI HETEROGÉNEA BU-
+                 HARDILLA QUE POMPO-
+                 SAMENTE LLAMÁBAMOS
+                 LABORATORIO. TAMBIÉN 
+                 <emph rendition="#b">LUCAS HERBERT</emph>, EL EM-
+                 PLEADO DE BANCO, ERA
+                 LOCO POR LA 
+                 ELECTRÓNICA.
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 SÓLO QUE A LU-
+                 CAS LE INTERE-
+                 SABA LA RADIO-
+                 ACTIVIDAD. ESTA-
+                 BA EMPEÑADO EN
+                 CONSTRUIR ÉL SO-
+                 LO UN CONTADOR
+                 GEIGER DE DISE-
+                 ÑO PROPIO, PERO
+                 EN AQUEL MO-
+                 MENTO TENÍA UN 
+                 INTERÉS MUCHO
+                 MÁS URGENTE, 
+                 AUNQUE MENOS 
+                 TRASCENDENTE.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#lucasherbert">
+                 ¿y, JUAN? ¿QUÉ
+                 TAL ESTAMOS
+                 PARA EL PRIME-
+                 RO?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 MAL, LUCAS, QUE LO CAN-
+                 TEN ELLOS.                 
+              </cbml:balloon>  
+              <note type="panelDesc"> Left side of panel shows MCU of Lucas Herbert staring at the cards in 
+                 his hands and smiling, with other player's hands and cards on both sides. A caption that ends
+                 with a simple drawing of a geiger counter separates this from the right side of the frame, where
+                 the four players are seen at the table, from above, in an OSS from behind Polsky, with Favalli across
+                 from him, and Juan Salvo and Lucas Herbert on his right and left, respectively. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#polsky #eternauta">
+              <cbml:caption who="#eternauta">
+                 FUE EL TURNO 
+                 DE <emph rendition="#b">POLSKY</emph>, EL
+                 JUBILADO QUE
+                 APROVECHABA
+                 LAS FACILIDA-
+                 DES DE MI BU-
+                 HARDILLA PARA
+                 CONSTRUIR VIO-
+                 LINES.                 
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#polsky">                    
+                 ENVIDO…               
+              </cbml:balloon>              
+              <note type="panelDesc"> MCU of Polsky's head, smiling, hiolding a set of cards in front
+                 of him.</note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#eternauta #polsky #juansalvo">              
+              <cbml:caption who="#eternauta">
+                 RESPIRÉ ALIVIADO: AHORA PODRÍA HACER
+                 VALER MIS CARTAS. ME HICE EL TONTO.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">                    
+                 ¿ENVIDO 
+                 DIJO?                 
+              </cbml:balloon> 
+              <note type="panelDesc"> CU of Juan Salvo with partial silhouette of Polsky's face
+                 on his right. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#polsky #juansalvo">
+              <cbml:balloon type="speech" who="#polsky"> 
+                 ¡REAL ENVIDO!                
+              </cbml:balloon>          
+              <note type="panelDesc"> Frontal MCU of Polsky with anxious expression. Nose and chin of 
+                 Juan Salvo on his right offer a contrasting serene expression. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#lucasherbert #eternauta">
+              <cbml:balloon type="speech" who="#lucasherbert"> 
+                 ¡FALTA 
+                 ENVIDO!
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 CLARO, CON TREIN-
+                 TA Y TRES DE MA-
+                 NO LO DEJÉ A-
+                 PLASTADO. TODAVÍA 
+                 RECUERDO EL ALA-
+                 RIDO TRIUNFAL DE
+                 LUCAS, MI COMPA-
+                 ÑERO DE JUEGO:
+                 AQUEL ‘FALTA
+                 ENVIDO’ NOS SIG-
+                 NIFICABA EL ‘CHI-
+                 CO’.
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 RECUERDO TAM-
+                 BIÉN QUE FAVALLI, 
+                 PARA DISIMULAR 
+                 SU DESPECHO, LE-
+                 VANTÓ EL VOLU-
+                 MEN DE LA PE-
+                 QUEÑA RADIO EN
+                 LA QUE, HASTA
+                 AQUEL MOMENTO,
+                 HABÍA MURMURA-
+                 DO MUY BAJO LA
+                 VOZ DESPEINADA
+                 DE <emph rend="#b">LOUIS ARMS-
+                 TRONG.</emph>
+              </cbml:caption>
+              <fw type="pageNum" place="lower-right">
+                 4
+              </fw>
+              <note type="panelDesc"> Lateral CU of Lucas Herbert as he exclaims, exhilarated.  
+              </note> 
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0008">
+           <cbml:panel n="1" characters="#eternauta #favalli #polsky #lucasherbert #juansalvo #radio">
+              <cbml:balloon type="speech" who="#favalli"> 
+                 QUIERO ES-
+                 CUCHAR EL 
+                 BOLETÍN.                 
+              </cbml:balloon>
+              <cbml:balloon type="audio" subtype="telecast" who="#radio">                  
+                 …A CONTINUACIÓN UNA
+                 NOTICIA DE ÚLTIMO MO-
+                 MENTO… FORMIDABLE
+                 EXPLOSIÓN ATÓMICA EN
+                 EL PACÍFICO… CONTRA
+                 LO QUE SE HABÍA ANUN-
+                 CIADO…                 
+              </cbml:balloon>                
+              <note type="panelDesc"> CU of back side of radio with frontal MCU of Favalli
+                 sitting sideways on his chair and staring at radio with a serious look on
+                 his face. Juan Salvo, Polsky, and Lucas Herbert can be seen in MCU sitting around
+                 the table, with smiles on their faces. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#radio">
+              <cbml:balloon type="audio" subtype="telecast" who="#radio">  
+                 LOS ESTADOS UNIDOS HAN CONTINUA-
+                 DO HACIENDO ENSAYOS ATÓMICOS…
+                 UN ACCIDENTE ACABA DE REVELARLO:
+                 EL ESTALLIDO DE UNA BOMBA ATÓMI-
+                 CA DE NUEVO TIPO HA PRODUCIDO IN-
+                 CALCULABLE CANTIDAD DE POLVO RA-
+                 DIOACTIVO…                 
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of radio on table.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#juansalvo #lucasherbert #favalli #polsky #radio">
+              <cbml:balloon type="audio" subtype="telecast" who="#radio"> 
+                 DESPLAZADA POR EL VIENTO, LA NUBE RADIOACTIVA AVAN-
+                 ZA A GRAN VELOCIDAD HACIA EL SUD OESTE. MÁS DE-
+                 TALLES EN NUESTRO
+                 PRÓXIMO IN-
+                 FORMATIVO, 
+                 A LAS 23,30…
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#polsky">                 
+                 ¿CUÁNDO TERMINARÁN
+                 CON ESAS EXPLOSIONES?
+              </cbml:balloon>                 
+              <note type="panelDesc"> Radio blares the news on the left of the frame, while
+                 Favalli and Lucas Herbert stare and listen in MCU, with Juan Salvo and Polsky
+                 listening behind them. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#polsky #favalli #juansalvo #lucasherbert #eternauta">
+              <cbml:balloon type="speech" who="#polsky">
+                 EL ‘HOBBY” DE ELLOS
+                 UN POCO MÁS PELIGRO-
+                 SO QUE LOS NUESTROS…                
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#favalli">
+                 AL CUERNO CON LA 
+                 RADIO, A TI TE TO-
+                 CA DAR, JUAN.
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 ACALLADA AQUELLA BRE-
+                 VE INCURSIÓN EN EL
+                 MUNDO EXTERIOR, VOL-
+                 VIMOS A LO NUESTRO. EL 
+                 INFORMATIVO NO HABÍA
+                 ATENUADO PARA NADA
+                 LA SENSACIÓN DE BIENES-
+                 TAR QUE SENTÍ MIENTRAS 
+                 BARAJABA LAS CARTAS.
+                 ERA BUENO ESTAR ALLÍ,
+                 CON LOS AMIGOS, EN A-
+                 QUELLA BUHARDILLA QUE 
+                 ERA PARA MÍ ALGO MÁS
+                 QUE EL LUGAR DONDE PO-
+                 DÍA GOZAR A MIS AN-
+                 CHAS DEL PRINCIPAL DE…                 
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 …MIS “HOBBIES”. EL AEROMODELISMO.
+                 AQUELLA BUHARDILLA ERA LA PRUEBA
+                 CONCRETA DE MI TRIUNFO EN LA VDIDA.
+                 YO, JUAN SALVO, NO ERA RICO, PERO MI
+                 PEQUEÑA FÁBRICA DE TRANSFORMADO-
+                 RES ME PERMITÍA VIVIR A GUSTO…                 
+              </cbml:caption>
+              <note type="panelDesc"> Left side of panel shows frontal MCU of Favalli, flanked by Polsky and Salvo at the
+                 table. At the right side of caption, the four characters are seen from outside
+                 the window in a VWS.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#eternauta">              
+              <cbml:caption who="#eternauta">
+                 …TENER LA CLASE DE PLACERES SIMPLES QUE
+                 ERAN TODO MI HORIZONTE. SÍ, ERA DULCE LA
+                 VIDA AQUELLA NOCHE HELADA, EN MI CHALECI-
+                 TO DE VICENTE LÓPEZ, CÁLIDO COMO UN NIDO…                 
+              </cbml:caption>              
+              <note type="panelDesc"> EWS from above shows the house and its surroundings. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#eternauta #elena">
+              <cbml:caption who="#eternauta"> 
+                 ERA DULCE SABER QUE, UN PISO MÁS ABAJO, ELENA, MI
+                 MUJER, ESTARÍA LEYENDO EN LA <emph rendition="#b">CAMA</emph>.
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 ERA TAMBIÉN DULCE SABER
+                 QUE, EN EL CUARTO CONTI-
+                 GUO A NUESTRO DORMITORIO…                 
+              </cbml:caption>          
+              <note type="panelDesc"> Lateral MCU of Elena peacefully reading in bed. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#eternauta #martita">
+              <cbml:caption who="#eternauta"> 
+                 DORMÍA MARTITA, LA “HEREDERA”. PERO NO
+                 PUDE PENSAR MUCHO EN TODA LA DULZURA
+                 QUE ME RODEABA…
+              </cbml:caption>
+              <fw type="pageNum" place="lower-left">
+                 5
+              </fw>
+              <note>
+                 Lateral CU of Martita sleeping on her bed.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8" characters="#eternauta #favalli #juansalvo">
+                 <cbml:balloon type="speech" who="#favalli">
+                    ¿Y? ¿TE 
+                    DORMISTE,
+                    JUAN?
+                 </cbml:balloon>
+                 <cbml:caption who="#eternauta">
+                    FAVALLI ERA DE POCAS
+                    PULGAS, Y DISIMULABA 
+                    MAL LA FURIA DE LA RECIENTE DERROTA. 
+                 </cbml:caption> 
+              <note type="panelDesc"> MCU of Favalli with a surprised gesture. Salvo sits to his
+                 left, shuffling the pack of cards. 
+              </note> 
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0009">
+           <cbml:panel n="1" characters="#eternauta #favalli #polsky #lucasherbert #juansalvo">
+              <cbml:balloon type="speech" who="#juansalvo"> 
+                 YA VA, FAVA… 
+                 YA VA…
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 EMPECÉ A DAR LAS CARTAS, AUNQUE SIN DEJAR DE
+                 GOZAR LO ENTRAÑABLE DE AQUEL MOMENTO. 
+              </cbml:caption>             
+              <note type="panelDesc"> OSS showing Juan Salvo speaking on the left, Polsky 
+                 ahead, and Lucas Herbert on the right of Favalli, who's back is seen in the
+                 shadow. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#juansalvo">
+              <cbml:caption who="#eternauta">  
+                 LOS CUATRO ALLÍ EN LA BUHARDILLA CÁ-
+                 LIDA, BIEN REPARADOS DE LA HELADA
+                 QUE AFUERA, EN EL JARDÍN, ESTARÍA 
+                 AMUSTIANDO LAS PLANTAS.
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 SEPARADOS 
+                 DEL MUNDO
+                 COMO SI EL
+                 CHALECITO FUE-
+                 RA UNA ISLA.
+                 UNA ISLA A
+                 LA QUE APENAS 
+                 SI LLEGABAN LOS RUIDOS 
+                 DE LA AVENIDA 
+                 CERCANA…                 
+              </cbml:caption>
+              <cbml:caption who="#eternauta">
+                 EL DESEMBRAGUE QUEJUMBROSO DE UN CO-
+                 LECTIVO “NOCTURNO”, EL TACONEAR DE UNA PA-
+                 REJA HUYÉNDOLE AL FRÍO, EL RAUDO PASAR
+                 DE UN AUTO QUE APROVECHABA EL POCO 
+                 TRÁNSITO…                 
+              </cbml:caption>
+              <note type="panelDesc"> Left side of panel shows Juan Salvo smiling in MCU. 
+                 On the other side of caption, right side of panel shows the street outside in EWS.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#juansalvo #lucasherbert #favalli #polsky #eternauta">
+              <cbml:caption who="#eternauta">
+                 DE NUEVO TUVE QUE VOLVER A LA REALIDAD PROSAICA
+                 DEL TRUCO.                 
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#favalli"> 
+                 ¿ESTÁS EN BABIA, JUAN? 
+                 ¡HEMOS CANTADO ‘FALTA 
+                 ENVIDO’!                 
+              </cbml:balloon>                             
+              <note type="panelDesc"> OSS of Favalli in frontal MCU while he speaks to 
+                 Juan Salvo, shown on the right laterally from behind, in shadow. Polsky and Lucas Herbert stare at 
+                 Salvo from the left of the frame. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#juansalvo #eternauta">
+              <cbml:balloon type="speech" who="#juansalvo">
+                 DISCULPEN.
+                 HOY ESTOY…                 
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 UN RUIDO VIOLENTO, QUE VINO DE LA CALLE,
+                 ME INTERRUMPIÓ.                 
+              </cbml:caption>              
+              <note type="panelDesc"> Lateral CU of Juan Salvo, who seems to smile.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#lucasherbert #polsky #favalli #juansalvo">              
+              <cbml:balloon type="speech" who="#lucasherbert">
+                 ¿QUÉ FUE? 
+                 PARECIÓ 
+                 UN CHOQUE.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#polsky">
+                 ME PARECIÓ
+                 OÍR UN GRITO.
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 VOY A 
+                 VER…                 
+              </cbml:balloon>              
+              <note type="panelDesc"> Frontal WS shows Salvo on the right as he stands up.
+                 His three friends look and stare as they sit at the table. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#juansalvo #favalli">
+              <cbml:balloon type="speech" who="#favalli"> 
+                 ¡TÚ TE SIENTAS, JUAN!
+                 HABRÁ SIDO UN EN-
+                 CONTRONAZO ENTRE
+                 DOS AUTOS: NO PO
+                 ESO VAMOS A INTE-
+                 RRUMPIR EL JUEGO.                 
+              </cbml:balloon>                   
+              <note type="panelDesc"> Lateral WS of Juan Salvo and Favalli, as the latter
+                 grabs him by the arm, forcing him to stay seated. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#favalli">
+              <cbml:balloon type="speech" who="#favalli"> 
+                 ¡TE DIJE QUE
+                 CANTAMOS ‘FAL-
+                 TA ENVIDO’!                 
+              </cbml:balloon>              
+              <note>
+                 Frontal CU of Favalli as he sepaks to Salvo. Part of the radio can be seen
+                 in the bottom left of frame.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8" characters="#eternauta #favalli #juansalvo">
+              <cbml:caption who="#eternauta">
+                 OLVIDADO QUE-
+                 DÓ EL RUIDO. MI-
+                 RÉ MIS CARTAS…                 
+              </cbml:caption> 
+              <cbml:balloon type="speech" who="#juansalvo">
+                 HUM… TRES CAR-
+                 TAS DEL MISMO PA-
+                 LO. ¡TENGO FLOR!
+                 AHORA SÍ QUE SE
+                 ENOJARÁ FAVA-
+                 LLI…                 
+              </cbml:balloon>  
+              <note type="panelDesc"> Lateral MCU of Juan Salvo staring at his cards.
+              </note> 
+              <fw type="pageNum" place="lower-right">
+                 6
+              </fw>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0010">           
+           <cbml:panel n="1" characters="#eternauta #juansalvo">
+           <cbml:caption who="#eternauta">
+              SEGURO DE GANAR, 
+              EMPECÉ EL CANTO
+              TANTAS VECES RE-
+              PETIDO…                            
+           </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo"> 
+                 POR EL RÍO PARANÁ…
+              </cbml:balloon>                           
+              <note type="panelDesc"> Lateral MCU showing Juan Salvo speaking on the left of the frame, 
+                 his fingers holding the cards in the bottom right of the frame.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#juansalvo #favalli #polsky #lucasherbert">              
+              <cbml:balloon type="speech" who="#juansalvo">
+                 PERO… ¿QUÉ 
+                 PASÓ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#lucasherbert">
+                 ALGÚN
+                 FUSIBLE…                 
+              </cbml:balloon>
+              <note type="panelDesc"> OSS sows back of Favalli's head, with Polsky in front,
+                 and Salvo and Herbert speaking to his right and left, respectivelly. Their
+                 figures are darkened because of loss of electricity, but light comes in through
+                 the window behind Salvo.                 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#juansalvo #lucasherbert #favalli #polsky">              
+              <cbml:balloon type="speech" who="#favalli"> 
+                 A MÍ TENÍA QUE PASAR-
+                 ME… ¡CUANDO TENÍA
+                 TREINTA Y TRES DE MA-
+                 NO!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 NO TE LAMENTES
+                 QUE YO TENÍA…
+              </cbml:balloon>                                          
+              <note type="panelDesc"> WS shows silhouette of Favalli on the left as he discusses with 
+                 Salvo, who is in the center of the frame. Lucas Herbert and Polsky are behind.               
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#polsky">
+              <cbml:balloon type="speech" who="#polsky">
+                 <emph rend="#b">¡CÁLLENSE!
+                 ¡CÁLLENSE, Y
+                 ESCUCHEN! </emph>                 
+              </cbml:balloon>                  
+              <note type="panelDesc"> Lateral CU of Polsky, in half light and half shadow. His
+                 eyes are wide open, and he seems terrified.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#lucasherbert #polsky #favalli #juansalvo">
+              <note type="panelDesc"> Frontal WS shows thr four characters staring toward the
+                 reader with expressions that range from terror to amazement, to a blank stare.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#juansalvo #favalli #lucasherbert #polsky">
+              <cbml:balloon type="speech" who="#polsky"> 
+                 ALGO HA PASADO…              
+              </cbml:balloon>                   
+              <note type="panelDesc"> Lateral WS from below shows four characters staring
+                 toward the window. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#favalli #lucasherbert #juansalvo #polsky #eternauta">
+              <cbml:caption who="#eternauta"> 
+                 AQUEL SILENCIO
+                 TOTAL QUE DE
+                 PRONTO HABÍA
+                 ACALLADO TODO
+                 RUMOR ERA A-
+                 NONADANTE; LOS
+                 MIL Y UN RUIDOS
+                 QUE SIEMPRE SE 
+                 OYEN EN UNA CIU-
+                 DAD, AÚN EN PLE-
+                 NA NOCHE, HABÍAN
+                 CESADO POR COMPLETO. LA RADIO
+                 ESTABA MUDA.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 PERO… NO
+                 ES POSIBLE…
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#lucasherbert">  
+                 Y SIN EMBARGO,
+                 LO ES… ¡MIREN
+                 ALLÍ!
+              </cbml:balloon>            
+              <note>
+                 OSS WS shows silhouette of the four characters as they stare out toward
+                 the illuminated window.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8">              
+              <note type="panelDesc"> EWS shows the intersection outside the house, with a dead corpse lying on the 
+                 ground on the right of panel. The left shows a car that has had an accident, with
+                 a woman almost entirely out of the car, holding to the wheel and to the door with
+                 her hands. The dark and enourmous sky is above them.
+              </note> 
+              <fw type="pageNum" place="lower-right">
+                 7
+              </fw>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0011">           
+           <cbml:panel n="1" characters="#lucasherbert #polsky">              
+              <cbml:balloon type="speech" who="#polsky">                  
+                 ¡NO! ¡NO ABRAS,
+                 LUCAS!                 
+              </cbml:balloon>                           
+              <note type="panelDesc"> OSS of Lucas Herbert as he is stopped from opening
+                 the window by Polsky.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#lucasherbert">              
+              <cbml:balloon type="speech" who="#lucasherbert">
+                 ¡HAY ALGO EN 
+                 EL  AIRE! ¿NO
+                 VEN QUE PARE-
+                 CE ESTAR NE-
+                 VANDO?                 
+              </cbml:balloon>             
+              <note type="panelDesc"> Lateral CU of Herbert as he speaks and looks out
+                 the window.                  
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#juansalvo #eternauta">              
+              <cbml:balloon type="speech" who="#juansalvo"> 
+                 TIENES RAZÓN, LUCAS.
+                 PARECE UNA NEVADA
+                 FOSFORESCENTE…
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 ACUNÁNDOSE EN EL AIRE QUIETO, DE LO ALTO CAÍAN
+                 TENUÍSIMOS COPOS; CASI TRANSPARENTES, EMANA-
+                 BAN UNA DÉBIL LUZ DE TRASMUNDO.
+              </cbml:caption>                                                     
+              <note type="panelDesc"> EWS shows the roof of the house and someone standing
+                 at the window while it snows lightly.                
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#eternauta">
+              <cbml:caption who="#eternauta">
+                 TODO, HASTA DONDE SE PODÍA VER, SE 
+                 CUBRÍA YA DE AQUELLA NEVADA. NE-
+                 VADA IRREAL, NEVADA DE DIBUJOS ANI-
+                 MADOS; Y MORTAL, TERRIBLEMENTE MORTAL…                 
+              </cbml:caption>                  
+              <note type="panelDesc"> EWS shows the chaotic street scene below as it is being snowed on. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#lucasherbert #polsky #favalli #juansalvo">
+              <cbml:balloon type="speech" who="polsky">
+                 DEBE SER 
+                 LA SUSTAN-
+                 CIA RADIO-
+                 ACTIVA
+                 QUE DIJO 
+                 LA RADIO…
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#lucasherbert">
+                 ¡HAY QUE CERRAR TODO!
+              </cbml:balloon>              
+              <note type="panelDesc"> Lateral MCU shows the four characters staring down 
+                 toward the street with terrified expressions on their faces. Favalli, on
+                 the right, is closer to the point of view.                  
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#juansalvo #favalli #polsky #eternauta">
+              <cbml:caption who="#eternauta">
+                 UN MIEDO LOCO,
+                 IRRACIONAL, ME ATENAZÓ.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">                  
+                 <emph rend="#b"> ¡ELENA! ¡MARTITA!</emph>                 
+              </cbml:balloon>                   
+              <note type="panelDesc"> Frontal CU shows Salvo running toward the front of 
+                 the frame with an anguished look on his face, half darkness, half
+                 light, with his companions watching from behind. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#juansalvo">              
+              <cbml:balloon type="speech" who="#juansalvo">
+                 ¡CON TAL QUE NO
+                 ESTÉ NINGUNA
+                 VENTANA ABIERTA!                 
+              </cbml:balloon>                          
+              <note>
+                 Lateral WS shows silhouette of Salvo rushing down the stairs. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8" characters="#elena #juansalvo">              
+              <cbml:balloon type="speech" who="#elena">
+                 ¿QUÉ PASA,
+                 JUAN? ¿QUÉ 
+                 PASA?                 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 YA TE EXPLICARÉ…
+                 ¡NO ABRAS LA
+                 VENTANA!
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows the silhouette of Elena sitting up on her
+                 bed with Juan Salvo speaking excitedly in the back toward the wall.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="9" characters="#eternauta #juansalvo">              
+              <cbml:caption who="#eternauta">
+                 ME PRECIPITÉ AL OTRO CUARTO, EL DE
+                 MARTITA. EL CORAZÓN SE ME ESTRUJÓ.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 <emph rend="#b"> ¡LA LUNA! LA
+                 VENTANA ABIER-
+                 TA! </emph>
+              </cbml:balloon>
+              <note type="panelDesc"> CU of Salvo's head as he looks into the room with terrified eyes.                                  
+              </note>              
+              <fw type="pageNum" place="lower-left">
+                 8
+              </fw>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0012">           
+           <cbml:panel n="1" characters="#juansalvo">              
+              <cbml:balloon type="speech" who="#juansalvo">                  
+                 NO… DEJARON LAS CELO-
+                 SÍAS ABIERTAS, PERO LA 
+                 VENTANA ESTÁ CERRADA.                 
+              </cbml:balloon>                           
+              <note type="panelDesc"> WS of SAlvo from behind as he rushes into Martita's
+                 bedroom.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#eternauta #martita #juansalvo">              
+              <cbml:caption who="#eternauta">
+                 NO ATINÉ A
+                 OTRA COSA
+                 QUE A ABRA-
+                 ZAR A LA
+                 PEQUEÑA, A
+                 ESTRUJARLA…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#martita">
+                 ¡QUE ME LASTI-
+                 MAS, PAPÁ!                 
+              </cbml:balloon>                         
+              <note type="panelDesc"> Lateral MCU of Salvo as he hugs his daughter, who
+                 is standing on her crib as she speaks.     
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#juansalvo #martita #elena">              
+              <cbml:balloon type="speech" who="#elena"> 
+                 ¿QUÉ HA 
+                 PASADO, 
+                 JUAN? ¡DI-
+                 ME ALGO!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 AFUERA HA OCU-
+                 RRIDO ALGO, ELE-
+                 NA… ALGO ES-
+                 PANTOSO; TODOS
+                 ESTÁN MUERTOS
+                 EN LA CALLE…                 
+              </cbml:balloon>                                                             
+              <note type="panelDesc"> WS shows the three members of the family walking
+                 toward the left of the frame.                 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#elena #martita #juansalvo #eternauta">
+              <cbml:balloon type="speech" who="juansalvo">
+                 FAVALLI DICE QUE DEBEN SER ESOS
+                 COPOS QUE CAEN… CREE QUE SON 
+                 RADIOACTIVOS. ¡HAY QUE TENER TODO
+                 CERRADO PARA QUE
+                 NO ENTRE NINGUNO!
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 MIENTRAS, DE LOS
+                 OTROS CUARTOS,
+                 NOS LLEGABAN
+                 LAS VOCES PRECI-
+                 PITADAS DE MIS
+                 TRES AMIGOS. FA-
+                 VALLI PEDÍA MA-
+                 SILLA, PARA TAPO-
+                 NAR LAS ABERTURAS; POLSKY TRA-
+                 TABA DE HABLAR
+                 POR TELÉFONO.
+                 LUCAS ANDABA
+                 POR LA PLANTA 
+                 BAJA.
+              </cbml:caption>               
+              <note type="panelDesc"> WS from outside shows the three family members 
+                 standing at the window and staring outside while it keeps snowing. The 
+               bottom of the caption shows a small silhouette of the street and the trees and houses under
+               the constant snow.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#elena">
+              <cbml:balloon type="speech" who="elena">
+                 ¡PERO ENTONCES, JUAN, EN TODAS
+                 LAS CASAS DONDE HABÍA ALGO
+                 ABIERTO NO SE HABRÁ SALVADO
+                 NADIE!                 
+              </cbml:balloon>                          
+              <note type="panelDesc"> EWS shows the house from outside, amidst the 
+                 darkness and the snow.                  
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#elena #martita #juansalvo">              
+              <cbml:balloon type="speech" who="#juansalvo">                  
+                 ESO CREO, ELENA… NOS-
+                 OTROS HEMOS TENIDO
+                 UNA SUERTE GRANDÍSIMA…                 
+              </cbml:balloon>                   
+              <note type="panelDesc"> Frontal CMU shows Salvo hugging Elena on his right
+                 and MArtita between them both. They are looking at him as he speaks
+                 with a solemn glare in his eyes. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#elena #eternauta">              
+              <cbml:balloon type="speech" who="#elena">
+                 ¿QUÉ HABRÁ SIDO
+                 DE MARÍA? ¿Y
+                 DE BERTA Y LOS 
+                 CHICOS?
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+                 MARÍA Y BERTA ERAN SUS HERMANAS: UNA VIVÍA
+                 EN LA LUCILA, LA OTRA EN EL CENTRO.
+              </cbml:caption>                                 
+              <note>
+                 Frontal CU of Elena's face as she speaks, with a horrified look in her
+                 eyes.  
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8" characters="#eternauta #juansalvo #martita #elena">              
+              <cbml:caption who="#eternauta">
+                 NO ATINÉ A DE-
+                 CIRLE NADA. SU 
+                 PREGUNTA, POR 
+                 PRIMERA VEZ, ME
+                 PINTABA EN TODA
+                 SU DESNUDEZ LA
+                 CATÁSTROFE QUE
+                 NOS RODEABA,
+                 TODA LA MUERTE
+                 QUE SE HABÍA A-
+                 BATIDO SOBRE EL 
+                 GRAN BUENOS
+                 AIRES…
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 TODOS HAN DE ES-
+                 TAR MUERTOS… TO-
+                 DOS, O CASI TODOS…
+                 MIS TÍOS… MI PRI-
+                 MO, GUILLERMO…
+                 NICOLÁS, MI AMIGO…
+                 ¡Y TODOS LOS O-
+                 TROS! ¡TODA LA 
+                 GENTE QUE YO CO-
+                 NOZCO!
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">   
+                 ASÍ DEBIÓ SER 
+                 EN HIROSHIMA Y
+                 NAGASAKY…
+                 UNA PARTE DE MI
+                 CEREBRO, CON CU-
+                 RIOSA FRIALDAD,
+                 CONSERVÓ LA
+                 OBJETIVIDAD, A
+                 PESAR DE TANTO
+                 ESPANTO. RECUER-
+                 DO QUE, EN AQUEL 
+                 PRIMER MOMEN-
+                 TO NO TUVE SEN-
+                 SACIÓN DE PÉRDI-
+                 DA, DE DOLOR.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 CASI TODAS LAS 
+                 AUTORIDADES HA-
+                 BRÁN PERECIDO
+                 TAMBIÉN.                 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#elena">
+                 ¡EL TELÉFONO!
+                 TENGO QUE
+                 HABLAR CON
+                 MARÍA!
+              </cbml:balloon>
+              <note type="panelDesc"> A small chiaroscuro under the first caption shows
+                 the street in the darkness. Salvo speaks in CU with a worried expression.
+                 The caption on his right is ended with what seems to be a (radioactive?)
+                 cloud. To the right, WS of Salvo hugging Martita while Elena speaks in
+                 a frenzy. They are all in silhouettes.                                  
+              </note>
+              <fw type="pageNum" place="lower-right">
+                 9
+              </fw> 
+           </cbml:panel>
+           <cbml:panel n="9" characters="#polsky #juansalvo #elena">
+              <cbml:balloon type="speech" who="#polsky">
+                 ¡EL TELÉFONO NO FUNCIONA!
+                 ¡NO HACE NINGÚN RUIDO!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#elena">
+                 ¡DIOS MÍO! 
+              </cbml:balloon>           
+              <note type="panelDesc"> Lateral MCU of Polsky holding the phone in his hands. Salvo and Elena
+                 watch and listen standing on the right of the frame. Elena is holding her head in desperation.                                               
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0013">           
+           <cbml:panel n="1" characters="#elena #juansalvo">              
+              <cbml:balloon type="speech" who="#elena">                  
+                 ¡DIOS 
+                 MÍO! 
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+                 CÁLMATE, ELENA, NO 
+                 TENEMOS QUE PER-
+                 DER LA CABEZA…
+                 ESTAMOS EN PELI-
+                 GRO…
+                 TODOS…                 
+              </cbml:balloon>                           
+              <note type="panelDesc"> Lateral MCU of Salvo hugging Elena in semi-darkness.
+              </note>
+           </cbml:panel>           
+           <cbml:panel n="2" characters="#eternauta #elena #juansalvo #martita">              
+              <cbml:balloon type="speech" who="#juansalvo">
+                 QUIZÁ EL DE-
+                 SASTRE NO HA 
+                 SIDO TAN TO-
+                 TAL COMO PA-
+                 RECE…
+              </cbml:balloon>
+              <cbml:caption who="#eternauta">
+               LA MENTE HUMANA
+               ES ABSURDA. RECUER-
+               DO QUE EN AQUEL
+               MISMO MOMENTO
+               PENSÉ EN TODOS
+               LOS JUGADORES DE 
+               FÚTBOL DE PRIME-
+               RA DIVISIÓN. ¿SERÍA
+               POSIBLE QUE TODOS
+               HUBIERAN TERMINA-
+               DO? ¿QUE DE UN
+               GOLPE NO EXISTIE-
+               RA YA TODO EL SE-
+               LECCIONADO? SACU-
+               DÍ LA CABEZA CREO
+               QUE EL CEREBRO…
+              </cbml:caption>
+              <cbml:caption who="#eternauta">              
+               …SE EMPEÑABA EN PENSAR
+               EN ESAS COSAS PARA NO EN-
+               LOQUECER.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#elena">
+               ¡HAY QUE CERRAR TODO, JUAN!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#juansalvo">
+               YA FAVALLI LO ESTÁ HACIENDO. 
+               SUERTE QUE 
+               ELLOS ESTÁN
+               AQUÍ.
+              </cbml:balloon>
+              <cbml:caption who="#eternauta"> 
+               EN ESE MOMENTO…
+              </cbml:caption>                                  
+              <note type="panelDesc"> Lateral CU of Salvo as he hugs his wife, who
+                 is crying as he speaks. On the right of a dividing caption, WS from above
+                 Martita's bedroom. Martita looks out the window while Salvo and Elena watch
+                 and speak from a few feet behind. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#eternauta #polsky">              
+              <cbml:caption who="#eternauta"> 
+                 NOS LLEGÓ UNA VOZ DESCOMPUESTA.
+              </cbml:caption>
+              <cbml:balloon type="speech" who="#polsky"> 
+                 EL TELÉFONO NO ANDA…
+              </cbml:balloon>                                             
+              <note type="panelDesc"> WS shows Polsky rushing down the stairs, with an anxious
+                 look on his face. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#polsky #favalli #lucasherbert">
+              <cbml:balloon type="speech" who="polsky">
+                 TENGO QUE IR A CASA…
+              </cbml:balloon>                             
+              <note type="panelDesc"> Lateral WS shows Polsky from behind as he speaks
+                 to Favalli and Lucas Herbert, who are busily working at sealing the door in
+                 semi-darkness. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#polsky">
+              <cbml:balloon type="speech" who="polsky">
+                 ¡EDITH Y LOS 
+                 CHICOS ESTÁN SOLOS!                 
+              </cbml:balloon>                          
+              <note type="panelDesc"> MCU shows Polsky's anxious expression as he grabs his coat
+                 from the rack. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="6" characters="#polsky #favalli">              
+              <cbml:balloon type="speech" who="#favalli">                  
+                 ¡NO SALGAS! ¡NO 
+                 SE PUEDE SALIR!
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#favalli">  
+                 ¡TENGO QUE SALIR!                 
+              </cbml:balloon>                   
+              <note type="panelDesc"> Lateral MCU shows Favalli and Polsky struggling. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="7" characters="#polsky #favalli">              
+              <cbml:balloon type="speech" who="#polsky">
+                 ¡DÉJAME!
+              </cbml:balloon>                              
+              <note>
+                 OSS CU of Polsky's expression as he punches Favalli in the face. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="8" characters="#lucasherbert #polsky">       
+              <cbml:balloon type="speech" who="#juansalvo">
+                 ¡NO ABRAS, POLSKY!
+                 ¡IMPOSIBLE!                 
+              </cbml:balloon>              
+              <note type="panelDesc"> Lateral WS shows Polsky running for the door and
+                 Herbert trying to stop him.                                  
+              </note>              
+           </cbml:panel>           
+           <cbml:panel n="9" characters="#polsky #lucasherbert">
+              <fw type="pageNum" place="lower-left">
+                 10
+              </fw> 
+              <cbml:balloon type="speech" who="#polsky">
+                 ¡TENGO QUE IR! 
+              </cbml:balloon>                         
+              <note type="panelDesc"> Lateral MCU of Polsky as he pushes away Herbert,
+                 who had tried to stop him.                                                
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+        </body>
+      </text>
+</TEI>
