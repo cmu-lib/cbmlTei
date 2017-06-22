@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">
+               <title type="main">
+                  D.E.U.D.A
+               </title>
+               <title type="subtitle">
+                  Deuda Externa Un Dibujo Argentino
+               </title>
+            </title>
+            <author>Grupo de Trabajo del Museo de la Deuda Externa</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Secretaría de Extensión Universitaria – Facultad de Ciencias Económicas – Universidad de Buenos Aires</publisher>
+            <publisher>Universidad de Buenos Aires</publisher>
+            <pubPlace>Buenos Aires</pubPlace>
+            <date when="2006">2006</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>1a. ed.</p>
+            <p>64 p.; 30 x 21 cm.</p>
+            <p>
+               Adaptación de: “La Nueva Deuda Externa explicada a todos” de Alfredo Eric Calcagno y Eric Calcagno.
+            </p>
+            <p>
+               Equipo de Trabajo del Museo de la Deuda Externa
+               Director: Federico Saravia.
+               Adaptador: Guillermo Ortiz.
+               Dibujantes: Guillermo Ortiz, Mariano Kramanski y Juan Manuel Gallicchio.
+               Coloreadores: Mariano Kramanski, Gabriela Balmaceda.
+               Productora Fotográfica: Gabriela Balmaceda.
+               Diseñador de Tapa: Federico Macko.
+               Colaboradores: Xavier Álvarez, Juan Cruz Arce, Pablo Belluscio, Juan Escobar, Matias Kramanski, Eduardo López, Juan Ignacio Marutian, María Menéndez, Omar Iribe, Cecilia Peralta, Francisco Pérez Zameza, Leticia Pogliaghi. 
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           <namespace name="http://www.cbml.org/ns/1.0">
+              <tagUsage gi="cbml:panel"></tagUsage>
+              <tagUsage gi="cbml:caption"></tagUsage>
+           </namespace>
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <div type="titlePage" xml:id="eg_0001">
+                       <head>
+                          D.E.U.D.A <lb/>
+                          Deuda Externa Un Dibujo Argentino
+                       </head>
+                       <byline>
+                          Grupo de Trabajo del Museo de la Deuda Externa
+                       </byline>
+                       <bibl>             
+                          Secretaría de Extensión Universitaria – Facultad de Ciencias Económicas – Universidad de Buenos Aires
+                       </bibl>                  
+        </div>
+        <pb/>
+        <div type="titlePage" xml:id="eg_0002">
+           <head>
+              D.E.U.D.A <lb/>
+              Deuda Externa Un Dibujo Argentino
+           </head>
+           <byline>
+              Grupo de Trabajo <lb/>
+              del Museo de la Deuda Externa
+           </byline>
+           <bibl>             
+              Secretaría de Extensión Universitaria <lb/>
+              Facultad de Ciencias Económicas  <lb/>
+              Universidad de Buenos Aires
+           </bibl> 
+        </div>
+        <pb/>
+        <div type="titlePage" xml:id="eg_0003">
+           <bibl>
+              D.E.U.D.A.: deuda externa un dibujo argentino / adaptado por Guillermo Ortiz; dirigido por Federico Saravia; ilustrado por Mariano Kramanski - 1a ed.- Buenos Aires: Universidad de Buenos Aires, 2006. 64 p.; 30x21 cm.
+              ISBN 950-29-0970-4
+              1.	Historieta I. Ortiz, Guillermo, adapt, II. Saravia, Federico, dir. III. Kramanski, Mariano, ilus.
+              CDD 741.5
+           </bibl>
+           <bibl>
+              Fecha de catalogación: 17/11/06
+           </bibl>
+           <p>
+              D.E.U.D.A.
+              Deuda Externa Un Dibujo Argentino
+           </p>
+           <p>
+              Adaptación de: “La Nueva Deuda Externa explicada a todos” de Alfredo Eric Calcagno y Eric Calcagno.          
+           </p>
+           <byline>
+              Equipo de Trabajo del Museo de la Deuda Externa
+              
+              Director: Federico Saravia.
+              Adaptador: Guillermo Ortiz.
+              Dibujantes: Guillermo Ortiz, Mariano Kramanski y Juan Manuel Gallicchio.
+              Coloreadores: Mariano Kramanski, Gabriela Balmaceda.
+              Productora Fotográfica: Gabriela Balmaceda.
+              Diseñador de Tapa: Federico Macko.
+              Colaboradores: Xavier Álvarez, Juan Cruz Arce, Pablo Belluscio, Juan Escobar, Matias Kramanski, Eduardo López, Juan Ignacio Marutian, María Menéndez, Omar Iribe, Cecilia Peralta, Francisco Pérez Zameza, Leticia Pogliaghi. 
+           </byline>
+        </div>           
+        <pb/>
+        <div type="preface" xml:id="eg_0004">
+           <head rendition="#uc #large #center #b" type="masthead">
+              UN COMPROMISO CON LA VERDAD HISTÓRICA
+           </head>              
+           <p>
+              Desde el inicio de nuestra gestión al frente de la Secretaría de Extensión Universitaria de la Facultad de 
+              Ciencias Económicas de la Universidad de Buenos Aires, comprendimos la necesidad de <sic>consolidad</sic> el 
+              vínculo que une a la comunidad universitaria con la sociedad de la que forma parte. 
+           </p>
+           <p>
+              El paradigma emergente de la responsabilidad social nos alcanza a todos con su demanda de participación 
+              <sic>preactiva</sic> en beneficio del conjunto a través de un aporte sistemático y continuo en la construcción del bien 
+              común.
+           </p>
+           <p>
+              Con esa convicción es que asumimos la responsabilidad social universitaria como uno de los ejes rectores de 
+              la acción de esta Secretaría, por tratarse la extensión de uno de los canales naturales para su manifestación,
+              hallando en la comunicación una de las herramientas ineludibles en concordancia con los tiempos que nos 
+              toca vivir.
+           </p>
+           <p>
+              Nos proponemos así, cristalizar nuestros objetivos de contribuir de manera activa <sic>ala</sic> consolidación de un 
+              modelo de democracia socialmente responsable, que sólo es posible sobre la base del conocimiento de 
+              nuestra verdad histórica, en nuestro caso específico, relacionada con las decisiones económicas del pasado 
+              que llevaron a nuestro país al borde de la disolución nacional.
+           </p>
+           <p>
+              En este sentido, el caso de la deuda externa, resulta a todas luces paradigmático. La creación del Museo de la 
+              Deuda Externa en el ámbito de esta Casa de Altos Estudios es una respuesta significativa que rescata el 
+              carácter relevante de la cultura de cara a una problemática que exige la concientización de la comunidad en 
+              su conjunto, ya que ha determinado en gran medida el destino de todos.
+           </p>
+           <p>
+              Esta iniciativa no hubiera podido materializarse sin la acción concurrente de diversos actores de la 
+              comunidad universitaria, quieren con su decidido compromiso contribuyen a sostenerla. Cabe una mención 
+              especial a nuestro Decano, el Prof. Dr. Alberto Edgardo Barbieri por su apoyo constante a este tipo de 
+              actividades. Agradecemos también al Secretario de Bienestar Estudiantil, Cultura y Deportes Sr. Emiliano 
+              Yacobitti por su amistad y compromiso desinteresado que ha puesto a disposición el espacio físico del 
+              Centro Cultural Sábato para la instalación y funcionamiento del Museo. Finalmente, no cabe duda que la 
+              orientación y la colaboración de nuestros amigos Dr. Alfredo Eric Calcagno y Pof. Eric Calcagno han 
+              significado un invalorable aporte que jerarquiza con sus trayectorias intachables este Museo dedicado a una 
+              temática de la cual constituyen especialistas de reconocido prestigio. 
+           </p>
+           <p>
+              Hoy tenemos el orgullo de presentar un complemento para el esclarecimiento de esta cuestión, con un 
+              criterio que incorpora formas alternativas de comunicación gráfica que permiten una transferencia de 
+              conocimientos más fluida, sin descuidar el rigor en los contenidos, aún para personas no habituadas a la 
+              materia. Nuestro esfuerzo y nuestro compromiso se materializan en las páginas que siguen. Es nuestra 
+              esperanza que esta historieta titulada D.E.U.D.A.: Deuda Externa Un Dibujo Argentino contribuya en 
+              alguna medida a construir el país mejor que nos merecemos. 
+           </p>
+           <p rendition="#center #b">
+              Lic. Federico Saravia
+              Director del Museo de la Deuda Externa
+              Secretario de Extensión Universitaria
+              Facultad de Ciencias Económicas – Universidad de Buenos Aires
+           </p>
+        </div>
+     <pb/>        
+        <div type="introduction">
+              <head rendition="#uc #large #center" type="masthead">
+                 Introducción
+              </head>
+           <div type="panelGrp" xml:id="eg_0005">
+              <cbml:panel n="1" characters="#narrator">
+                 <cbml:caption who="#narrator">
+                 <p>                 
+                    BUENOS AIRES, 9 DE ABRIL DE 3668, <lb/>
+                    MIL CUATROCIENTOS AÑOS DESPUÉS <lb/>
+                    DE LA HECATOMBE NUCLEAR.                    
+                 </p>               
+              </cbml:caption> 
+              <note type="panelDesc"> Apocalyptic image of city of Buenos Aires in ruins. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#spaceship">
+                 <note type="panelDesc"> A spaceship hovers over the clouds in the devastated
+                    city of Buenos Aires. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#hazmats">
+                 <note type="panelDesc"> Creatures in hazmat suits come out from spaceship 
+                    and pick up debris. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="4" characters="#hazmats">
+                 <note type="panelDesc"> Creatures in hazmat suits continue picking up debris among 
+                    the ruins. A damaged sign for the Museo de la Deuda Externa is visible in the 
+                    lower right of frame, in the forefront. 
+                 </note>
+              </cbml:panel>
+           </div>
+           <pb/> 
+           <div type="panelGrp" xml:id="eg_0006">
+              <cbml:panel n="1" characters="#hazmat">           
+                 <note type="panelDesc"> MCU of character in hazmat suit with green lights around neck.
+                 </note>
+              </cbml:panel>
+           </div>
+              <cbml:panel n="2" characters="#hazmat">     
+                 <floatingText subtype="poster" type="diegetic">
+                    <body>
+                       <head 
+                       rend="background-color:white; color:black"
+                       rendition="#uc #center #large">                      
+                       nunca <lb/>
+                       más                       
+                       </head>                       
+                       <ab type="masthead">
+                          <title type="main" rend="background-color:black; color:white" rendition="#uc #large #center">
+                             DEUDA EXTERNA
+                          </title>
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <note type="panelDesc"> Lateral CU of character in hazmat suit staring at 
+                    broken museum display.
+                 </note>
+              </cbml:panel>
+           <cbml:panel n="3" characters="#hazmat">     
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>                    
+                    <div type="news_story">
+                       <head rendition="#large #uc #b" type="headline">
+                          Alemann: <lb/>
+                          “Voy a sanear <lb/>
+                          la moneda”
+                       </head>
+                    </div>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>                    
+                    <div type="news_story">
+                       <head rendition="#large #uc #b" type="headline">
+                          ESTA MEDIANDO LA <lb/>
+                          IGLESIA POLACA 
+                       </head>
+                    </div>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>
+                    <ab type="masthead">
+                       <title rendition="#uc #large #center">
+                          HUMO®
+                       </title>
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>
+                    <ab type="masthead">
+                       <title rendition="#uc #large #center">
+                          ámbito financiero
+                       </title>
+                    </ab>
+                 </body>
+              </floatingText>
+              <note type="panelDesc"> MCU of character in hazmat suit walking past a wall
+                 covered in newspaper front pages.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="4" characters="#hazmat">           
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>
+                    <ab type="masthead">
+                       <title rendition="#uc #large #center">
+                          HUMO®
+                       </title>
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="magazine" type="diegetic">
+                 <body>
+                    <ab type="masthead">
+                       <title rendition="#uc #large #left">
+                          GENTE
+                       </title>
+                    </ab>
+                    <div type="news_story">
+                       <head rendition="#large #uc #b" type="headline">                         
+                          ¡SEGUIMOS <lb/>
+                          GANANDO!
+                       </head>
+                    </div>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>                    
+                    <ab type="masthead">
+                       <title rendition="#uc #large #center">
+                          LA NACION
+                       </title>
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>
+                    <ab type="masthead">
+                       <title rendition="#uc #large #center">
+                          HUMO®
+                       </title>
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>
+                    <div type="news_story">
+                       <head rendition="#large #uc #b" type="headline">
+                          La Navidad <lb/>
+                          de los comandantes
+                       </head>
+                    </div>
+                 </body>
+              </floatingText>
+              <floatingText subtype="newspaper" type="diegetic">
+                 <body>                    
+                    <div type="news_story">
+                       <head rendition="#large #uc #b" type="headline">
+                          VUELAN LA CASA DE  <lb/>
+                          KLEIN Y MATAN A  <lb/>
+                          SUS 2 CUSTODIOS
+                       </head>
+                    </div>
+                 </body>
+              </floatingText>  
+              <note type="panelDesc"> WS of character in hazmat suit projecting green lights 
+                 woth a device to create a luminiscent grid on the air.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="5" characters="#hazmat">           
+              <note type="panelDesc"> CU of hand of character in hazmat suit and device 
+                 with green lights projecting a figure composed of dots, lines, and circles onto the air.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="6" characters="#hazmat">           
+              <note type="panelDesc"> CU of Compact Disc caught in a circle of green light projected 
+                 by device.
+              </note>
+           </cbml:panel>
+           <pb/>        
+        <div type="panelGrp" xml:id="eg_0007">
+           <cbml:panel n="1">
+              <cbml:caption>                  
+                 CIUDAD UNIVERSITARIA DE NUEVA UTOPÍA.
+              </cbml:caption>              
+              <note type="panelDesc"> XWS of futuristic city under a dome. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2">
+              <cbml:caption>                  
+                 DEPARTAMENTO DE 
+                 HISTORIA ANTIGUA.
+              </cbml:caption>
+              <note type="panelDesc"> XWS of futurustic buildings. A pine forest grows tall
+                 on bottom right of frame.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#green_guy">
+              <cbml:balloon type="speech" who="#green_guy">
+                 HASTA EL MOMENTO <lb/>
+                 SE CONSIDERABA <lb/>
+                 AL GRAN HOLOCAUSTO <lb/>
+                 NUCLEAR COMO LA CAUSA <lb/>
+                 DE LA EXTINCIÓN <lb/>
+                 DE LOS SERES <lb/>
+                 HUMANOS.
+              </cbml:balloon>                
+              <note type="panelDesc"> Green guy seen from behind maneuvers levers and buttons 
+                 while looking at spheric projection showing maps, text, and an atomic mushroom. 
+              </note> 
+           </cbml:panel>
+        </div>
+           <div type="panelGrp" xml:id="eg_0008">
+              <cbml:panel n="1" characters="#green_guy">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    PERO LOS HALLAZGOS <lb/>
+                    RECUPERADOS EN LA <lb/>
+                    ZONA DENOMINADA  <lb/>
+                    “AGUJERO <lb/>
+                    INHABITABLE” NOS  <lb/>
+                    INDICAN QUE, MUCHO <lb/>
+                    TIEMPO ANTES, <lb/>
+                    ALGUNAS  <lb/>
+                    AGRUPACIONES  <lb/>
+                    HUMANAS <lb/>
+                    MOSTRABAN UNA  <lb/>
+                    FUERTE VOCACIÓN DE <lb/>
+                    AUTO-EXTERMINIO  
+                 </cbml:balloon>             
+                 <note type="panelDesc"> MCU of Green guy seen as he speaks. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#green_guy #martian_audience">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    ESTA VOCACIÓN HABRÍA DESENCADENADO UN <lb/>
+                    PROCESO DE AUTOELIMINACIÓN SISTEMÁTICA, EN <lb/>
+                    BUENA MEDIDA INCENTIVADO POR LAS NACIONES <lb/>
+                    DEL HEMISFERIO NORTE, RESPONSABLES DEL <lb/>
+                    HOLOCAUSTO FINAL
+                 </cbml:balloon>
+                 <note type="panelDesc"> WS shows Green Guy speaking from a podium, while an audience
+                    of martians listens from an amphitheatre-style room. A close-up image shows the speaker's
+                    right index finger pushing a red button in a console that also holds the CD-ROM.
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="3" characters="#green_guy #martian_audience">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    POR LO QUE SABEMOS, EN EL ÚLTIMO CUARTO DEL SIGLO XX FUE <lb/>
+                    ACTIVADO UN CURIOSO MECANISMO DE DESINTEGRACIÓN SOCIAL. <lb/>
+                    UNA PECULIAR COMBINACIÓN DE CODICIA, MEDIOCRIDAD <lb/>
+                    E IGNORANCIA, TODO ELLO REPRODUCIDO DESDE UN NÚCLEO  <lb/>
+                    COMPACTO DE CONCENTRACIÓN DEL PODER.                 
+                 </cbml:balloon>
+                 <note type="panelDesc"> Lateral CU of Green Guy's head while speaking to audience
+                    of martians.
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="4" characters="#green_guy">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    ESTE PRIMITIVO DISCO CONTIENE INFORMACIÓN  <lb/>
+                    REVELADORA PARA COMPRENDER EL ENTRAMADO  <lb/>
+                    DE RELACIONES SOCIALES QUE EL HOMBRE  <lb/>
+                    DESARROLLÓ HACIA EL FINAL DE SU EXISTENCIA.                 
+                 </cbml:balloon>
+                 <note type="panelDesc"> WS shows Green Guy at lectern, on left of frame.
+                    Bottom right includes a close-up of image of CD with lables and unidentified
+                    language. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="5" characters="#green_guy #martian_audience">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    FUE NECESARIO CONSTRUIR EL APARATO QUE VEMOS EN EL DOMO   <lb/>
+                    ANTIRRADIOACTIVIDAD PARA DESCIFRAR Y REPRODUCIR LA INFORMACIÓN  <lb/>
+                    ALMACENADA. EL LENGUAJE UTILIZADO ES EL ESPAÑOL, UNO DE LOS IDIOMAS  <lb/>
+                    MÁS DIFUNDIDOS DE LA ÉPOCA.                 
+                 </cbml:balloon>
+                 <note type="panelDesc"> WS shows Green Guy at lectern, on left of frame.
+                    Translation machine is seen at center, while audience is visible in background. 
+                 </note> 
+              </cbml:panel>
+              <cbml:panel n="6" characters="#green_guy #martian_audience">
+                 <cbml:balloon type="speech" who="#green_guy">
+                    NO OBSTANTE, NUESTRO PROCESADOR DE <lb/>
+                    TRADUCCIÓN SIMULTÁNEA NOS PERMITIRÁ  <lb/>
+                    COMPRENDER CABALMENTE TODO LO QUE <lb/>
+                    SERÁ PROYECTADO EN LAS PANTALLAS.                   
+                 </cbml:balloon>
+                 <note type="panelDesc"> WS shows back of Green Guy's head, while a projection shows
+                    CU of human head with a desk an other items in an office in the background. 
+                 </note> 
+              </cbml:panel>
+           </div>
+        </div>
+     </front>
+     <pb/>
+     <body>
+     <div type="part" n="Primera Parte">
+        <div type="chapter" n="I">        
+           <head rendition="#uc #upper_left #b">
+              I
+           </head>
+        <div type="panelGrp" xml:id="eg_009">           
+           <cbml:panel n="1" characters="#profesor"> 
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                    <body>                    
+                       <ab>
+                          REC
+                       </ab>
+                    </body>
+                 </floatingText>  
+              <note type="panelDesc"> MCU showing professor in front of a video camera, with desk, 
+                 and library shelves in background.                 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor">
+              <cbml:balloon type="speech" who="#profesor">
+                 A VER…
+              </cbml:balloon>
+                 <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       REC
+                    </ab>
+                 </body>
+              </floatingText> 
+              <note type="panelDesc"> CU of professor's head in front of a video camera, with desk, 
+                 and library shelves in background.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#profesor">   
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       REC
+                    </ab>
+                 </body>
+              </floatingText> 
+              <note type="panelDesc"> MCU shows back of professor as he walks toward desk, 
+                 and library shelves in background.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="profesor">   
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       REC
+                    </ab>
+                 </body>
+              </floatingText>
+              <cbml:balloon type="speech" who="#profesor">
+                 BIEN, <lb/>
+                 COMENZAMOS.
+              </cbml:balloon>              
+              <note type="panelDesc"> WS shows professor about to sit at the chair behind his
+                 desk, in front of a desktop computer. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#profesor">
+              <cbml:balloon type="speech" who="#profesor">
+                 AHORA QUE LA IRRACIONALIDAD ES LA NORMA Y <lb/>
+                 QUE PARECE ACERCARSE EL FIN DE LA  <lb/>
+                 HUMANIDAD, ES IMPRESCINDIBLE LANZAR UNA <lb/>
+                 BOTELLA AL MAR DE LA HISTORIA Y DEJAR <lb/>
+                 REGISTROS DE LOS EXTRAÑOS Y APARENTEMENTE <lb/>
+                 INCOMPRENSIBLES SUCESOS QUE OCURRIERON EN <lb/>
+                 ARGENTINA Y EN AMÉRICA LATINA HACIA FINALES <lb/> 
+                 DEL SIGLO XX Y PRINCIPIOS DEL SIGLO XXI
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows entire office, with video camera bottom center
+                 recording the professor sitting at his desk and speaking. 
+              </note> 
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0010">           
+           <cbml:panel n="1" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">
+                 COMO VEN ME ENCUENTRO TRABAJANDO, Y ASÍ HABRÉ DE CONTINUAR POR EL RESTO DE TODO ESTE REGISTRO
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows entire office, with video camera bottom center
+                 recording the professor sitting at his desk and speaking. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">
+                 Y POR MÁS TIEMPO AUN,  <lb/> 
+                 HASTA QUE LLEGUE <lb/> 
+                 EL INEVITABLE FIN  <lb/> 
+                 DE TODO ESTO
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of professor sitting at his desk and speaking. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">
+                 Y ES QUE NO ES POCO TRABAJO EL QUE A <lb/> 
+                 CUALQUIERA LE ESPERARÍA CUANDO SE TRATA <lb/> 
+                 DE ABORDAR UN TEMA TAN PRESENTE Y TAN <lb/> 
+                 IGNORADO. UN TEMA TAN IMPORTANTE Y TAN  <lb/> 
+                 SILENCIADO POR LOS GRANDES MEDIOS DE <lb/> 
+                 COMUNICACIÓN…                 
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of professor sitting at his desk and speaking. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">
+                 HABLAMOS DE LA  <lb/> 
+                 DEUDA EXTERNA.                 
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of professor sitting at his desk and speaking. A portrait
+                 of a writer (Valery?) is visible on top right of frame.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#profesor #Valery">              
+              <cbml:caption>
+                 <cit>
+                    <quote>
+                       “LA POLÍTICA ES EL ARTE DE IMPEDIR QUE LA  <lb/> 
+                       GENTE SE META EN LO QUE LE IMPORTA”   <lb/>                        
+                    </quote> 
+                    <bibl>PAUL VALÉRY.</bibl>
+                 </cit> 
+              </cbml:caption>
+              <note type="panelDesc"> CU of portrait on wall showing a writer (Valery?).
+              </note> 
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0011">           
+           <cbml:panel n="1" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">
+                 LA DEUDA EXTERNA ES PRESENTADA COMO UN HECHO  <lb/> 
+                 INMUTABLE, SIN POSIBILIDAD ALGUNA DE EVOLUCIÓN,  <lb/> 
+                 EN SENTIDO POSITIVO O NEGATIVO, COMO SI FUERA  <lb/> 
+                 UN ELEMENTO DE LA NATURALEZA,  <lb/> 
+                 TAN DEFINITIVO COMO EL CLIMA…                 
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral MCU of professor walking toward a window, through
+                 which the buildings of a big city are visible in the mist or smog. A framed picture of an independence
+                 hero (San Martin?) hangs on the wall above his head. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor"> 
+                 TAN INEXPLICABLE COMO  <lb/> 
+                 EL UNIVERSO. 
+              </cbml:balloon>
+                 <note type="panelDesc"> MCU of professor as he turns around and faces the audience from
+                    next to the window.   
+              </note>
+           </cbml:panel>
+           <cbml:panel n="3" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor"> 
+                 NO ES ASÍ.
+              </cbml:balloon>
+              <note type="panelDesc"> WS as professor starts walking back from the window. On 
+                 the right side of it, another framed picture of an independence hero is made visible.
+              </note>
+           </cbml:panel>
+           <cbml:panel n="4">              
+              <note type="panelDesc"> CU of object on table, which seeems to represent science, 
+                 and framed picture of an independence hero hanging on the wall above it. The window
+                 and balcony occupy the left half of the frame. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="5">   
+              <cbml:balloon type="speech" who="#profesor"> 
+                 TODO TRABAJO QUE SE PRECIE DEBE  <lb/> 
+                 COMENZAR POR DEFINIR SU OBJETO  <lb/> 
+                 DE ESTUDIO Y, COMO EN MUCHOS  <lb/> 
+                 OTROS CASOS,
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of professor back sitting at his desk, with an open book under his hands
+                 and a stack of books to his left. A big, black question mark occupies part of the frame in
+                 the front. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="6">   
+              <cbml:balloon type="speech" who="#profesor"> 
+                 LA PROBLEMÁTICA DE LA DEUDA <lb/> 
+                 EXTERNA SE ENCUENTRA DELIMITADA <lb/> 
+                 POR PREGUNTAS.                 
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows professor grabbing the big black question mark
+                 and flying through the air in a frame full with other question marks in all
+                 colors and a bunch of open books that are also flying through the air. 
+              </note>
+           </cbml:panel>
+           <cbml:panel n="7">   
+              <cbml:balloon type="speech" who="#profesor"> 
+                 SERÁN ESTAS LAS <lb/> 
+                 PREGUNTAS BÁSICAS <lb/> 
+                 QUE NOS <lb/> 
+                 PROPONDREMOS <lb/> 
+                 CONTESTAR <lb/> 
+                 CON OBJETIVIDAD <lb/> 
+                 Y CONVICCIÓN                 
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows professor from the back, very small and in the middle
+                 of something that resembles the representation of an atom, with question marks in all
+                 colors also flying through the air. 
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0012">           
+           <cbml:panel n="1" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿ES EL  <lb/> 
+                 RESULTADO <lb/> 
+                 DE UNA <lb/> 
+                 GIGANTESCA <lb/> 
+                 ESTAFA Y COMO <lb/> 
+                 TAL NO EXISTE <lb/> 
+                 NINGUNA  <lb/> 
+                 OBLIGACIÓN  <lb/> 
+                 MORAL DE <lb/> 
+                 PAGARLA?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #large">
+                 ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿ES UNA DEUDA <lb/> 
+                 LEGÍTIMA <lb/> 
+                 QUE DEBE <lb/> 
+                 PAGARSE CON <lb/> 
+                 PUNTUALIDAD?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿QUÉ <lb/> 
+                 MEDIDAS <lb/> 
+                 UNILATERALES <lb/> 
+                 SON <lb/> 
+                 POSIBLES?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #medium">
+                 ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b">
+                 ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿ES UN MEDIO  <lb/> 
+                 PARA QUE LOS <lb/> 
+                 PAÍSES DEUDORES  <lb/> 
+                 REALICEN LA POLÍTICA  <lb/> 
+                 ECONÓMICA QUE <lb/> 
+                 PRETENDEN LOS <lb/> 
+                 ACREEDORES?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿CUÁLES SON <lb/> 
+                 LOS COSTOS Y <lb/> 
+                 BENEFICIOS <lb/> 
+                 DE CADA POLÍTICA <lb/> 
+                 QUE SE <lb/> 
+                 INSTRUMENTE?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #large">
+                 ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #x-large">
+                 ?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿ES UN FACTOR <lb/> 
+                 QUE DETERMINA <lb/> 
+                 EN GRAN MEDIDA <lb/> 
+                 LA DISTRIBUCIÓN <lb/> 
+                 DE LA RIQUEZA <lb/> 
+                 Y EL INGRESO <lb/> 
+                 DENTRO DE LA <lb/> 
+                 ARGENTINA?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor">                  
+                 ¿QUÉ <lb/> 
+                 ALTERNATIVAS <lb/> 
+                 EXISTEN DE <lb/> 
+                 SOLUCIONES <lb/> 
+                 NEGOCIADAS?
+              </cbml:balloon>
+              <cbml:balloon type="speech" who="#profesor" rendition="#b">
+                 ?
+              </cbml:balloon>              
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #large">
+                 ?
+              </cbml:balloon>              
+              <cbml:balloon type="speech" who="#profesor" rendition="#b #large">
+                 ?
+              </cbml:balloon>
+              <note type="panelDesc"> MCU of professor on left, with CU of upper part of scientific-
+                 representation artifact taking center stage. Speech bubbles appear as questions inside
+                 the arc described by this object. 
+              </note>
+           </cbml:panel>                 
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0013">           
+              <cbml:panel n="1" characters="#profesor">              
+                 <cbml:balloon type="speech" who="#profesor">               
+                    DESDE LA ESCUELA NOS HAN ENSEÑADO <lb/> 
+                    QUE HAY QUE PAGAR LAS DEUDAS Y QUE <lb/> 
+                    QUIEN NO LO HACE ES UN TRAMPOSO, <lb/> 
+                    QUE AL POCO TIEMPO SE TRANSFORMA  <lb/> 
+                    EN DELINCUENTE. PAGAR LO QUE SE DEBE <lb/> 
+                    ES UNA OBLIGACIÓN MORAL. <lb/> 
+                    CON ESTE RAZONAMIENTO, QUIEN NO PAGA <lb/> 
+                    LO QUE ADEUDA ES ANTE TODO <lb/> 
+                    UNA MALA PERSONA.
+                 </cbml:balloon>
+                 <note type="panelDesc"> CU of professor's head with bookshelves in the background. 
+                 </note> 
+              </cbml:panel>
+           <cbml:panel n="2" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">         
+                 SI SE TRASLADA ESTE RAZONAMIENTO A LAS <lb/>
+                 DIMENSIONES DE UN PAÍS RESULTA INDUDABLE <lb/>
+                 QUE HAY QUE PAGAR LA DEUDA EXTERNA. <lb/>
+                 ¿PERO QUÉ PASA SI SE RECLAMA LO QUE NO <lb/>
+                 SE DEBE, O SI LO QUE SE PRESENTA COMO <lb/>
+                 DEUDA RESULTA QUE ES UN RESULTADO DE <lb/>
+                 UNA GRAN ESTAFA?
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of professor's head with wallpaper in the background. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="3" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">  
+                 ¿ENTONCES TAMBIÉN <lb/>
+                 DEBE PAGARSE? <lb/>
+                 Y LO QUE SE PAGUE <lb/>
+                 ¿SOBRE QUIÉN DEBE <lb/>
+                 RECAER?
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of professor's head with left hand to his mouth and wallpaper in the background. 
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="4" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">  
+                 ¿SOBRE LOS QUE SE BENEFICIARON <lb/>
+                 CON LA DEUDA Y HOY <lb/>
+                 CONCENTRAN LA RIQUEZA?
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral MCU of professor standing on left side of frame next to the window and looking out
+                 at what seems to be the towers and cupula of a church.
+              </note> 
+           </cbml:panel>
+           <cbml:panel n="5" characters="#profesor">              
+              <cbml:balloon type="speech" who="#profesor">  
+                 ¿SOBRE TODA LA POBLACIÓN?
+              </cbml:balloon>
+              <note type="panelDesc"> Lateral CU of professor's head looking out the window
+                 at what seems to be the towers and cupula of a church while it rains or snows.
+              </note> 
+           </cbml:panel>
+        </div>
+        <pb/>
+        </div>
+     </div>
+        <div type="part" n="Segunda Parte">
+           <div type="chapter" n="II">
+              <div type="panelGrp" xml:id="eg_0014">
+                 <cbml:panel n="1" characters="#profesor">              
+                    <cbml:balloon type="speech" who="#profesor">                 
+                       PARA TENER UNA IDEA DE LA IMPORTANCIA Y LA VELOCIDAD DE CRECIMIENTO DE LA DEUDA EXTERNA, <lb/>
+                       SEÑALEMOS QUE EN <date when="1975">1975</date> ERA DE <measure type="currency">SIETE MIL OCHOCIENTOS MILLONES DE DÓLARES</measure>. <lb/>
+                       LLEGÓ A <measure type="currency">CUARENTA Y CINCO MIL MILLONES</measure> EN <date when="1982">1982</date>, A SESENTA MIL MILLONES EN 1990 <lb/>
+                       Y A <measure type="currency">CIENTO CUARENTA MIL MILLONES</measure> EN <date when="1999">1999</date>.
+                    </cbml:balloon>
+                    <floatingText subtype="graph" type="diegetic">
+                       <body>
+                          <ab>
+                       <figure>
+                          <figDesc>WS shows professor jumping on bar-graph with the x-axis composed of: 0, 1975, 1982, 1990, 1999; and y-axis
+                             of 0, 20 MIL, 40 MIL, 60 MIL, 80 MIL, 120 MIL, 140MIL, 160 MIL.</figDesc>
+                       </figure>
+                          </ab>
+                       </body>
+                    </floatingText>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor">   
+              <floatingText subtype="graph" type="extra-diegetic">
+                 <body>
+                    <ab>
+                    <figure>
+                       <figDesc>Simple illustration on left side of the panel with symbols and block upward/downward arrows: money=up
+                          healthcare=down; government=down; industry=down</figDesc>
+                    </figure>
+                    </ab>
+                 </body>
+              </floatingText>
+              <cbml:balloon type="speech" who="#profesor">                 
+                 EL PAGO DE LA DEUDA <lb/>
+                 AFECTA A TODA LA SOCIEDAD <lb/>
+                 YA QUE ES NECESARIO <lb/>
+                 EXTRAER RECURSOS FISCALES <lb/>
+                 Y DE DIVISAS PARA ELLO. <lb/>
+                 ESTO SIGNIFICA MÁS <lb/>
+                 IMPUESTOS Y MENOS <lb/>
+                 GASTOS PÚBLICOS, MENOR <lb/>
+                 CANTIDAD Y CALIDAD DE <lb/>
+                 SALUD Y EDUCACIÓN, ASÍ <lb/>
+                 COMO MENOS INVERSIÓN <lb/>
+                 PÚBLICA PARA LA  <lb/>
+                 INFRAESTRUCTURA Y EL  <lb/>
+                 CRECIMIENTO.
+                 REC
+                 REC
+              </cbml:balloon>
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       REC
+                    </ab>
+                 </body>
+              </floatingText>  
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       REC
+                    </ab>
+                 </body>
+              </floatingText> 
+              <note type="panelDesc"> Lateral WS showing professor sitting and holding video camera, 
+                 while two frames within the panel show CU images of his head from the recording.
+              </note>
+           </cbml:panel> 
+           <cbml:panel n="3" characters="#profesor #sheriff">
+              <cbml:caption who="#profesor">
+                 TAMBIÉN, DEBEMOS EXPORTAR MÁS E IMPORTAR MENOS DE LO QUE PODRÍAMOS SI NO HUBIERA QUE PAGAR EL SERVICIO DE LA  <lb/>
+                 DEUDA; EN ECONOMÍA ESTO SIGNIFICA MENOS CONSUMO Y MENOS INVERSIÓN, ES DECIR, MENOS CRECIMIENTO, MÁS DESEM-  <lb/>
+                 PLEO, MENORES INGRESOS, MÁS POBREZA. COMO TAMPOCO NOS ALCANZA PARA PAGAR TODO, NOS SEGUIMOS ENDEUDANDO  <lb/>
+                 Y ESTO NOS PONE EN MANOS DE LOS ACREEDORES, QUE APROVECHAN PARA DECIRNOS LO QUE DEBEMOS HACER.
+              </cbml:caption>
+              <floatingText subtype="video_recording_marker" type="diegetic">
+                 <body>                    
+                    <ab>
+                       BANCO  <lb/> 
+                       DEL NORTE
+                    </ab>
+                 </body>
+              </floatingText> 
+              <note type="panelDesc"> WS showing on left side of panel a sheriff-style character smoking a cigar.
+                 He is wearing an uncle-Sam style hat and has a gun at his waist and a star on his vest. 
+                 On the right hand of panel there is a jail door and a plaque on the wall that reads "Banco del 
+                 Norte".
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0015">           
+              <cbml:panel n="1" characters="#profesor #workers">              
+                 <cbml:caption who="#profesor">                  
+                    CUANDO LOS GOBIERNOS NO PUDIERON PAGAR PIDIERON ALIVIOS, QUE EL FONDO MONETARIO INTERNACIONAL LES CONCEDIÓ A CAMBIO DE FUERTES AJUSTES.
+                 </cbml:caption>
+                 <floatingText subtype="label" type="diegetic">
+                    <body>
+                       <ab rendition="#uc #x-large #bottom_right">
+                          ESTATAL
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <floatingText subtype="label" type="extradiegetic">
+                    <body>
+                       <ab rendition="#uc #bottom_right">
+                          OFICINA  <lb/>
+                          DE PERSONAL
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <note type="panelDesc"> Caption is located on the top of the panel. "ESTATAL" is written
+                    on the top of an archway entrance to a factory. There are workers scattered throughout.
+                    The personnell office is a little shack on the bottom right of the image, as indicated
+                    by arrow coming out from label. 
+                 </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor #workers">              
+              <cbml:caption who="#profesor">                  
+                 DE ESTA FORMA, CON ALGUNA QUE OTRA MEJORA EN LAS CONDICIONES DE PAGO, EL FMI HIZO QUE <geogName>LOS PAÍSES SUBDESARROLLADOS</geogName> REESTRUCTURARAN SU <lb/>
+                 SISTEMA PRODUCTIVO, PRIVATIZARAN EMPRESAS PÚBLICAS E IMPLANTARAN UNA APERTURA EXTERNA DE LA ECONOMÍA, TANTO COMERCIAL COMO FINANCIERA.
+              </cbml:caption>
+              <floatingText subtype="label" type="diegetic">
+                 <body>
+                    <ab rendition="#uc #x-large #bottom_right">
+                       PRIVATIZADA
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="label" type="diegetic">
+                 <body>
+                    <ab rendition="#uc #x-large #center">
+                       S.A <lb/>
+                       solidez
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="grafiti" type="diegetic">
+                 <body>
+                    <ab rendition="#uc #x-large #center">
+                       LADRONES
+                    </ab>
+                 </body>
+              </floatingText>
+              <floatingText subtype="label" type="extradiegetic">
+                 <body>
+                    <ab rendition="#uc #bottom_right">
+                       OFICINA  <lb/>
+                       DE VENTAS
+                    </ab>
+                 </body>
+              </floatingText>
+              <note type="panelDesc"> Caption is located on the top of the panel. "PRIVATIZADA" is written
+                 on the top of the archway entrance to the factory, replacing previous label. There are no workers 
+                 left in the picture, and the factory is in bad shape. 
+                 The personnell office has been transformed into a more modern looking shack surrounded by
+                 walls, one of which has grafiti on it. 
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0016">           
+           <cbml:panel n="1" characters="#profesor #pobres #ricos">              
+              <cbml:balloon type="speech" who="#profesor">                  
+                 NO ES ESTE SOLAMENTE UN PROBLEMA ENTRE DEUDORES Y ACREEDORES. LO QUE ESTÁ EN JUEGO ES EL <lb/>
+                 BIENESTAR –O LA MISERIA—DE LA MAYORÍA DE LA POBLACIÓN. LA ESTRUCTURA DEL SISTEMA PRODUCTIVO <lb/>
+                 Y LA AUTONOMÍA NACIONAL PARA DECIDIR LAS POLÍTICAS ECONÓMICAS LOCALES. EL PAGO O NO PAGO DE <lb/>
+                 LA DEUDA ES, A TODAS LUCES UNA CUESTIÓN POLÍTICA. NO ES UNA CUESTIÓN QUE PUEDA RESOLVERSE EN <lb/>
+                 LA BOLSA DE VALORES, SINO EN LAS INSTITUCIONES CONSTITUCIONALES, COMO EL PARLAMENTO,  <lb/>
+                 EL PODER EJECUTIVO Y EL JUDICIAL, CON UN FUERTE DEBATE SOBRE LOS ALCANCES DEL PAGO TOTAL, <lb/>
+                 PARCIAL O DEL NO PAGO, O DE CUALQUIER OTRA SOLUCIÓN QUE PERMITA MEJORAR EL PANORAMA DE  <lb/>
+                 LAS SOCIEDADES “ENDEUDADAS A LA FUERZA” COMO LA ARGENTINA.
+              </cbml:balloon>
+              <note type="panelDesc"> WS shows professor walking along a yellow road or path, on
+                 either side of which are representations of poverty and poor people, and of riches
+                 (and no rich people are visible). Among the symbols in poverty half: people carrying 
+                 recycling materials by themselves or on a horse-pulled cart, a malnourished family and a 
+                 dog with ramschack houses in the background, and a religious image depicting possibly St. 
+                 Francis of Assissi. In rich half: a luxury car, casino chips, rolls of bills dollars), champagne,
+                 smiling mouths, 100 dollar bills, jewelery, monuments (including monument to ustice) and the government 
+                 or capitol building). </note>
+           </cbml:panel>
+           <cbml:panel n="2" characters="#profesor #rich_woman #poor_man">
+              <cbml:caption who="#profesor">
+                 PERO NO SÓLO HAY UN ENFRENTAMIENTO ENTRE LOS ACREEDORES Y LOS DEUDORES: <lb/>
+                 AÚN DENTRO DE LOS PAÍSES DEUDORES EXISTEN GRUPOS SOCIALES QUE APROVECHAN <lb/>
+                 EL ENDEUDAMIENTO EN SU PROPIO BENEFICIO: QUE UN PAÍS SE ENDEUDE NO QUIERE <lb/>
+                 DECIR QUE EL DINERO QUE ENTRE SE REPARTIRÁ DE MODO EQUITATIVO. 
+              </cbml:caption>
+              <note type="panelDesc"> XWS shows on the lefy a yacht with a woman in a bikini at the front;
+                 and a poor man carrying recycling materials on a road next to the water. A red car is also
+                 on that road, and an airplane is about to fly over it. Buildings and trees are seen in
+                 the background. 
+              </note>
+           </cbml:panel>
+        </div>
+        <pb/>
+           </div>
+        </div>
+        <div type="part" n="Tercera Parte">
+           <div type="chapter" n="III">
+              <div type="panelGrp" xml:id="eg_0017">
+                 <cbml:panel n="1" characters="#profesor">
+                    <cbml:balloon type="speech" who="#profesor">                   
+                       AUNQUE LES CUESTE CREER A AQUELLOS QUE NO <lb/>
+                       CONOCEN OTRA REALIDAD QUE LA ARGENTINA <lb/>
+                       ENDEUDADA, ES IMPORTANTE ACLARAR QUE LA <lb/>
+                       DEUDA EXTERNA NO SURGIÓ POR GENERACIÓN <lb/>
+                       ESPONTÁNEA.
+                    </cbml:balloon>
+                    <note type="panelDesc">  WS shows professor walking along his office, with bookshelves
+                       behind him and to the right of the panel, with a door in between them.
+                    </note>
+                 </cbml:panel>
+                 <cbml:panel n="2" characters="#profesor">
+                    <cbml:balloon type="speech" who="#profesor">                   
+                       EL NACIMIENTO DE LA DEUDA EXTERNA ARGENTINA TIENE QUE VER <lb/>
+                       CON DOS VERTIENTES POLÍTICAS DIFERENTES. LA PRIMERA  <lb/>
+                       FUE LA ACCIÓN DEL SISTEMA FINANCIERO INTERNACIONAL, <lb/>
+                       QUE IMPULSÓ EL ENDEUDAMIENTO PARA SATISFACER LOS <lb/>
+                       REQUERIMIENTOS DE LOS BANCOS DE LOS PAÍSES <lb/>
+                       DESARROLLADOS.                       
+                    </cbml:balloon>
+                    <note type="panelDesc">  MCU shows professor sitting at his desk in his office, with 
+                       bookshelves behind him and a computer monitor in front of him. He is typing on a 
+                       keyboard, and has a thermos and a mate on the desk to his right.
+                    </note>
+                 </cbml:panel>
+                 <cbml:panel n="3" characters="#profesor #tycoons #bodyguards">
+                    <cbml:caption who="#profesor">                   
+                       LA SEGUNDA VERTIENTE FUERON LAS POLÍTICAS <lb/>
+                       ECONÓMICAS ARGENTINAS, QUE RESPONDIERON A LAS <lb/>
+                       NECESIDADES DEL ESTABLISHMENT, QUE COMENZARON <lb/>
+                       DURANTE EL GOBIERNO MILITAR Y SE CONSOLIDARON  <lb/>
+                       EN EL DECENIO DE <date when="1990">1990</date>. 
+                    </cbml:caption>
+                    <floatingText subtype="computer_screen" type="diegetic">
+                       <body>
+                          <head rendition="#uc #large"> 
+                             <term xml:id="te" rend="sc">ESTABLISHMENT</term> 
+                          </head>
+                          <p rendition="#uc #large">
+                             <gloss target="#te">
+                                GRUPO SOCIAL QUE EJERCE <lb/>
+                                AUTORIDAD Y QUE  <lb/>
+                                GENERALMENTE <lb/>
+                                RESISTE A LOS CAMBIOS. <lb/>
+                                GRUPO EXCLUSIVO DE <lb/>
+                                GENTE PODEROSA QUE <lb/>
+                                DIRIGE UN GOBIERNO O <lb/>
+                                SOCIEDAD POR MEDIO DE <lb/>
+                                ACUERDOS Y DECISIONES <lb/>
+                                PRIVADAS.
+                             </gloss>
+                          </p>
+                       </body>
+                    </floatingText>
+                    <table rows="6" cols="4">
+                       <row role="data">
+                          <cell role="label">dolar</cell>
+                          <cell role="data">3.09</cell>
+                          <cell role="data">2.99</cell>
+                          <cell role="data">↑</cell>
+                       </row>
+                       <row role="data">
+                          <cell role="label">euro</cell>
+                          <cell role="data">3.80</cell>
+                          <cell role="data">3.50</cell>
+                          <cell role="data">↑</cell>
+                       </row>
+                       <row role="data">
+                          <cell role="label">yen</cell>
+                          <cell role="data">16.00</cell>
+                          <cell role="data">19.00</cell>
+                          <cell role="data">↓</cell>
+                       </row>
+                       <row role="data">
+                          <cell role="label">libra</cell>
+                          <cell role="data">4.50</cell>
+                          <cell role="data">5.50</cell>
+                          <cell role="data">−</cell>
+                       </row>
+                       <row role="data">
+                          <cell role="label">lira</cell>
+                          <cell role="data">1.50</cell>
+                          <cell role="data">4.70</cell>
+                          <cell role="data">−</cell>
+                       </row>
+                       <row role="data">
+                          <cell role="label">rublo</cell>
+                          <cell role="data">4.00</cell>
+                          <cell role="data">4.50</cell>
+                          <cell role="data">↓</cell>
+                       </row>
+                    </table>
+                    <figure>
+                       <figDesc>
+                          Four clocks located below the four columns in the table seem to show the time in
+                          different cities in the world, but are not labeled.
+                       </figDesc>
+                    </figure> 
+                    <note type="panelDesc">  Panel shows on the left the computer screen with the definition
+                       of the term.  To the right, the table shows different currencies and arrows indicating
+                       gain, loss, or stable quality. Below the table, four characters seem to represent tycoons,
+                       while two bodyguards stand behind them. Tall buildings and a helicopter are seen in the background.
+                    </note>
+                 </cbml:panel>
+                 <cbml:panel n="4" characters="#profesor #uncle_sam #obama">
+                    <cbml:caption who="#profesor">   
+                       EL PADRE Y LA MADRE SON, PUES, EL ESTABLISHMENT <lb/>
+                       INTERNACIONAL Y EL LOCAL. LA DEUDA NACIÓ DE SUS <lb/>
+                       RELACIONES CARNALES.                       
+                    </cbml:caption>
+                    <note type="panelDesc"> Panel shows in its center a big red heart with small red hearts
+                       floating around it. Inside the big heart, character representing Uncle Sam kisses a
+                       shorter character seemingly representing President Obama.
+                    </note>
+                 </cbml:panel>
+                 <cbml:panel n="5" characters="#profesor">
+                    <cbml:caption who="#profesor">   
+                       DESDE <date when="1930">1930</date> HASTA <date when="1975">1975</date> HUBO POCOS PRÉSTAMOS INTERNACIONALES A AMÉRICA LATINA. PRIMERO LA CRISIS DEL ’30, <lb/>
+                       LA SEGUNDA GUERRA MUNDIAL DESPUÉS Y POR ÚLTIMO LA POSGUERRA, LOS PAÍSES DESARROLLADOS ESTABAN <lb/>
+                       DEMASIADO OCUPADOS, PRIMERO EN DESTRUIRSE LOS UNOS A LOS OTROS, Y DESPUÉS EN RECONSTRUIRSE DE MODO <lb/>
+                       INDIVIDUAL.
+                    </cbml:caption>
+                    <note type="panelDesc"> EWS shows dystopian landscape with what seems like the ruins of a city that 
+                       was bombed, probably during one of the wars being alluded in the text. 
+                    </note>
+                 </cbml:panel>
+              </div>
+        <pb/>
+        <div type="panelGrp" xml:id="eg_0018">           
+              <cbml:panel n="1" characters="#profesor">              
+                 <cbml:balloon type="speech" who="#profesor">                 
+                    EN EL CASO DE LA ARGENTINA, ENTRE <date when="1945">1945</date> Y <date when="1954">1954</date> NO HUBO ENTRADAS DE CAPITAL A LARGO PLAZO, Y EN EL SECTOR  <lb/>
+                    PRIVADO FUE ÍNFIMA. EL CAPITAL EXTRANJERO QUE EN <date when="1913">1913</date> TOTALIZABA EL <num type="percentage" value="48">48%</num> DEL CAPITAL FIJO TOTAL, SE REDUJO AL  <lb/>
+                    <num type="percentage" value="20">20%</num> EN <date when="1940">1940</date>, AL <num type="percentage" value="15">15%</num> EN <date when="1945">1945</date> Y AL <num type="percentage" value="48">5%</num> ENTRE <date when="1949">1949</date> Y <date when="1955">1955</date>.
+                 </cbml:balloon>
+                 <floatingText subtype="graph" type="diegetic">
+                    <body>
+                       <ab>
+                          <figure>
+                             <figDesc>bar-graph with the x-axis composed of: 1913, 1940, 1945, 1955; 
+                                and y-axis (Capital Extranjero) of 5%, 15%, 20%, 50%. Bars are made up from 
+                                sacks of money with the $ symbol.</figDesc>
+                          </figure>
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <floatingText subtype="label" type="diegetic">
+                    <body>
+                       <ab>
+                          CAPITAL EXTRAN- <lb/>
+                          JERO
+                       </ab>
+                    </body>
+                 </floatingText> 
+                 <note type="panelDesc"> WS shows professor on the right (perhaps) projecting and looking at bar-graph.
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor #fiesta_populista #fiesta_neoliberal">              
+                 <cbml:caption who="#profesor">                  
+                    RESULTA ENTONCES QUE LA “FIESTA POPULISTA”—A LA QUE TODOS PODÍAN ENTRAR-, QUE ALGUNOS PRESENTAN AHORA <lb/>
+                    COMO LA MADRE DE TODAS LAS CALAMIDADES, SÓLO UTILIZÓ EL AHORRO NACIONAL Y DESENDEUDÓ AL PAÍS.
+                 </cbml:caption>
+                 <note type="panelDesc">  EWS shows "la fiesta populista" in which a group of characters
+                    on the left of the panel are playing sports and music, dancing, cooking, and in general
+                    having a good time in a utopian-looking environment with a background of houses and 
+                    buildings, including a hospital and a factory. A gap (a river?) separates them from 
+                    "la fiesta neoliberal," a small group on the right of the panel which includes a military 
+                    officer and some rich-looking individuals who are frowning and staring at those on the other side.  
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#profesor #fiesta_populista #fiesta_neoliberal">
+                 <cbml:caption who="#profesor">
+                    LA FIESTA NEOLIBERAL, A LA QUE MUY POCOS ACCEDEN, COSTÓ <measure type="currency">80.000 MILLONES DE DÓLARES</measure> DE ENDEUDAMIENTO  <lb/>
+                    EXTERNO ENTRE <date when="1990">1990</date> Y <date when="1999">1999</date>, ADEMÁS DE LOS <measure type="currency">26.300 MILLONES DE DÓLARES</measure> RECIBIDOS POR  PRIVATIZACIONES, DE <lb/>
+                    ACUERDO CON CIFRAS OFICIALES.                    
+                 </cbml:caption>
+                 <floatingText subtype="label" type="diegetic">
+                    <body>
+                       <ab>
+                          ARANCEL
+                       </ab>
+                    </body>
+                 </floatingText>
+              <note type="panelDesc">  EWS shows characters from previous "la fiesta populista" image on 
+                 the left of the panel, but now in a dystopian-looking environment with scenes of poverty,
+                 crime, prostitution, huger, etc. with a background of houses and buildings that look boarded and/or ruined, 
+                 including the former hospital (now having the label "Arancel", and factory. Besides the gap 
+                 a river?) there is now a line of riot police separating them from "la fiesta neoliberal," in which the 
+                 small group on the right of the preceding panel are now smiling and drinking champagne, not even looking 
+                 toward those on the other side.  
+              </note>
+           </cbml:panel>
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0019">           
+              <cbml:panel n="1" characters="#profesor #sheik">              
+                 <cbml:caption who="#profesor">                  
+                    A MEDIADOS DE LOS <date when="1970">’70</date> SE PRODUJO UN ALZA IMPRESIONANTE DE LOS PRECIOS DE PETRÓLEO Y <geogName>LOS PAÍSES PETROLEROS</geogName>  <lb/>
+                    DEBIERON DARLE CAUCE A LA AVALANCHA DE DÓLARES QUE GENERARON. COMO NO TENÍAN LA POSIBILIDAD DE  <lb/>
+                    GASTARLO EN SU MERCADO INTERNO LO LÓGICO HUBIERA SIDO QUE INVIRTIERAN ESAS SUMAS EN 
+                    <geogName>
+                       LOS PAÍSES <lb/>
+                       DESARROLLADOS
+                    </geogName>
+                    , PERO ÉSTOS ESTABAN EN RECESIÓN Y NO PODÍAN ABSORBER TANTO CAPITAL EXCEDENTE. <lb/>
+                    ENTONCES ENCARGARON LA COLOCACIÓN DE UNA PARTE IMPORTANTE DE ESOS FONDOS A LOS GRANDES BANCOS <lb/>
+                    INTERNACIONALES                    
+                 </cbml:caption>
+                 <note type="panelDesc">  EWS shows the terrestrial globe being walked on by an Arabian "sheik" from 
+                    the oil wells on the right of the panel toward the highly urbanized cities on the left of it. Sheik
+                    carries a handful of green bills (presumably dollars), some of which are blowing in the wind toward 
+                    the right of the frame. Size of sheik is equal to that of oil wells and skyscrapers. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor #tycoon">              
+                 <cbml:caption who="#profesor">
+                    QUE ENGANCHARON A <geogName>LOS PAÍSES SUBDESARROLLADOS</geogName>, ÁVIDOS DE CAPITALES, Y LES OFRECIERON PRÉSTAMOS A TASAS <lb/>
+                    DE INTERÉS BAJAS.                    
+                 </cbml:caption>
+                 <note type="panelDesc">  EWS is very similar to preceding panel, but shows 
+                    tycoon or banker (with cigar in mouth) walking from skyscrapers on the right of the panel toward the government
+                    buildings on the left of it. Tycoon is also carrying a handful of green bills (presumably dollars), some of which are blowing in the wind toward 
+                    the right of the frame. His size is also equal to that of buildings. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#profesor #tycoon #politico #militar">              
+                 <cbml:caption who="#profesor">
+                    ASÍ <geogName>LOS PAÍSES LATINOAMERICANOS</geogName> <lb/>
+                    SE ENDEUDARON, PARA ALGUNOS <lb/>
+                    --COMO <country>LA ARGENTINA</country>—FUE UNA  <lb/>
+                    FIESTA DE DESPILFARRO.                    
+                 </cbml:caption>
+                 <note type="panelDesc">  EWS shows giant-sized tycoon or banker (with cigar in mouth) showering politician and military officer with money that he drops from a cornucopia
+                    from the sky above their heads. Politician is lighting a cigar with a bill, and has a sack of money behind him, while military officer in front of him holds 
+                    a glass in his hands and has a tank behind him. The city can be seen in the background. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="4" characters="#profesor #uncle_sam"> 
+                 <cbml:caption who="#profesor">
+                    PERO EL REGOCIJO DURÓ POCO EN <lb/>
+                    <date when="1979">1979</date>, POR DECISIÓN UNILATERAL DE <lb/>
+                    <country>EEUU</country>, SE TRIPLICÓ LA TASA DE <lb/>
+                    INTERÉS.                    
+                 </cbml:caption>
+                 <note type="panelDesc">  EWS shows giant-sized Uncle Sam with right foot on south of the US and left foot stomping on South America. New York city can be seen in the background. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="5" characters="#profesor #militar"> 
+                 <cbml:caption who="#profesor">
+                    CON ESTE SÚBITO INCREMENTO, <geogName>LOS <lb/>
+                    PAÍSES LATINOAMERICANOS</geogName> NO PODÍAN <lb/>
+                    PAGAR Y COMENZARON A ENTRAR EN <lb/>
+                    MORATORIA. ESTA CRISIS EXPLOTÓ EN  <lb/>
+                    <country>MEXICO</country> EN <date when="1982">1982</date>.                    
+                 </cbml:caption>
+                 <floatingText subtype="monument" type="diegetic">
+                    <body>
+                       <ab>
+                          <date when="1810-05-25">25 MAYO 1810</date>
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <note type="panelDesc">  WS shows military officer from above panel. He is facing the reader with a sad expression on his face and his hands holding out the interior empty pockets
+                    in his pants. A band with the colors of the Argentine flag across his chest, he is standing between a tree loaded with bananas on his right and a monument of the Argentine independence
+                    on his left. 
+                 </note>
+              </cbml:panel>              
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0020">           
+              <cbml:panel n="1" characters="#profesor #book">              
+                 <cbml:balloon type="speech" who="#book"> 
+                    <quote>“LA DEUDA EXTERNA SE FABRICA <lb/>
+                       NO PARA RESOLVER LOS PROBLEMAS  <lb/>
+                       DE <country>LA ARGENTINA</country>, SINO PARA <lb/>
+                       RESOLVER LOS PROBLEMAS  <lb/>
+                       DE LA BANCA MUNDIAL”.</quote> <lb/>
+                    <bibl>ALEJANDRO OLMOS</bibl>.
+                 </cbml:balloon>
+                 <note type="panelDesc">  MCU of professor at his desk reading from a book.                     
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor">   
+                 <cbml:balloon type="speech" who="#profesor"> 
+                    A PARTIR DE LA CRISIS FINALIZÓ EL  <lb/>
+                    FLUJO VOLUNTARIO DE CAPITALES                    
+                 </cbml:balloon>
+                 <note type="panelDesc">  WS of professor at his desk speaking toward readers.                     
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor"> 
+                    YA NO SE PRESTABA POR NEGOCIO, SINO POR  <lb/>
+                    NECESIDAD, EN ESPECIAL PARA QUE EL DEUDOR NO  <lb/>
+                    ENTRARA EN MORATORIA.                    
+                 </cbml:balloon>
+                 <note type="panelDesc">  WS of professor standing at his desk speaking toward readers.                     
+                 </note>
+              </cbml:panel>
+                 <cbml:panel n="4" characters="#profesor">
+                    <cbml:balloon type="speech" who="#profesor"> 
+                       CADA BANCO ACREEDOR COMENZÓ A VER CÓMO  <lb/>
+                       PODÍA HACER PARA COBRAR. NO SE PRESTABA MÁS QUE  <lb/>
+                       EN LA MEDIDA INDISPENSABLE PARA QUE LOS PAÍSES  <lb/>
+                       DEUDORES PUDIERAN PAGAR.
+                    </cbml:balloon>
+                    <note type="panelDesc"> WS of professor standing in front of his desk and walking toward readers.                     
+                    </note>
+                 </cbml:panel>
+                 <cbml:panel n="5" characters="#profesor">
+                    <cbml:balloon type="speech" who="#profesor"> 
+                       LO CUAL NO ERA FÁCIL, PUES ESTABAN  <lb/>
+                       SUMERGIDOS EN LA CATARATA DE  <lb/>
+                       INTERESES Y DE INTERESES SOBRE INTERESES.                       
+                    </cbml:balloon>
+                    <note type="panelDesc">  WS of back of professor standing on tiptoes and streching out left arm as he tries 
+                       to reach something from up on a shelf.                        
+                    </note>
+                 </cbml:panel>           
+                 <cbml:panel n="6" characters="#profesor">     
+                    <note type="panelDesc"> WS of back of professor standing and watching surprised as some books fall from 
+                      shelf above.                    
+                    </note>
+                 </cbml:panel>
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0021">           
+              <cbml:panel n="1" characters="#profesor">              
+                 <cbml:caption who="#profesor"> 
+                    LA DEUDA HABÍA DEJADO DE SER UN INSTRUMENTO DE INTERMEDIACIÓN, PARA TRANSFORMARSE EN UNA ENTIDAD <lb/>
+                    AUTÓNOMA, AUTORREPRODUCIBLE, DESLIGADA DEL PROCESO DE PRODUCCIÓN Y, POR EL CONTRARIO, CHUPÁNDOLE <lb/>
+                    RECURSOS. ENTRE 
+                    <date when="1981">1981</date> Y <date when="1990">1990</date> EL PRODUCTO INTERNO BRUTO POR HABITANTE DE <country>ARGENTINA</country> CAYÓ EN <num type="percentage" value="-21.2">-21,2%</num>.
+                 </cbml:caption>                 
+                 <note type="panelDesc"> 
+                    Panel shows xws of a neighborhood street, with a car parked on the street
+                    in front of a house, and some construction materials on the house to the
+                    right. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor">                             
+                 <note type="panelDesc"> 
+                    Caption over preceding panel etends over this panel as well. 
+                    Panel shows ws of same neighborhood street, byt now the car is lacking
+                    tires and doors while houses are boarded up and fenced. Construction has
+                    been replaced by ovregrown front space and boarded up windows. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    A PARTIR DE <date when="1991">1991</date> SE REESTABLECIERON LOS FLUJOS  <lb/>
+                    DE CAPITALES HACIA <name type="place">AMÉRICA LATINA</name>. LA DEUDA  <lb/>
+                    CONTRAÍDA ENTRE <date when="1975">1975</date> Y <date when="1982">1982</date> TERMINÓ POR  <lb/>
+                    CONSOLIDARSE Y BLANQUEARSE EN <date when="1992">1992</date>, <lb/>
+                    CON SU CONVERSIÓN A BONOS.
+                 </cbml:balloon>  
+                 <note type="panelDesc"> MCU showing professor sitting at hs desk,
+                    in front of a video camera, and with library shelves in background.                 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="4" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    DE ESTA FORMA, LA BANCA TRANSNACIONAL YA NO <lb/>
+                    CORRÍA RIESGOS: SI ALGO PASABA, LE OCURRIRÍA A <lb/>
+                    LOS TENEDORES DE DE BONOS Y NO A LOS ACCIONISTAS <lb/>
+                    Y GERENTES DE LOS BANCOS.                    
+                 </cbml:balloon>  
+                 <note type="panelDesc"> lateral shot showing professor sitting at his desk,
+                    with framed picture of Argentine liberator on the wall behind him,
+                    and windows and balcony facing the city in fron of him.
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="5" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    ESTE NUEVO FLUJO DE CAPITALES TUVO DIFERENTES  <lb/>
+                    MOTIVOS: PRIMERO, LAS TASAS DE INTERÉS DE <geogName>LOS PAÍSES  <lb/>
+                    SUBDESARROLLADOS</geogName> ERAN SUPERIORES EN VALORES <lb/>
+                    NOMINALES A LAS DE <country>EEUU</country>, SEGUNDO, LOS NUEVOS <lb/>
+                    ACREEDORES DESEABAN DIVERSIFICAR SUS RIESGOS; <lb/>
+                    TERCERO, LA APERTURA COMERCIAL Y FINANCIERA Y <lb/>
+                    LAS PRIVATIZACIONES DE <geogName>LOS PAÍSES LATINOAMERICANOS</geogName>, <lb/>
+                    EN ESPECIAL DE <country>LA ARGENTINA</country>.                    
+                 </cbml:balloon>  
+                 <note type="panelDesc"> frontal CU of professor sitting at his desk,
+                    with bookshelf behind him.
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="6" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    PARA <country>LA ARGENTINA</country>, ESTE FLUJO DE CAPITALES HIZO POSIBLE  <lb/>
+                    UN DECENIO DEL PLAN DE CONVERTIBILIDAD, A PESAR DE LAS   <lb/>
+                    IMPORTANTES CRISIS DE <country>MÉXICO</country> EN <date when="1995">1995</date> Y <country>BRASIL</country> EN <date when="1999">1999</date> <lb/>
+                    CONTINUÓ EL INGRESO NETO DE RECURSOS QUE ENTRE <date when="1992">1992</date>  <lb/>
+                    Y <date when="1998">1998</date> FUE DE <measure type="currency">44.800 MILLONES DE DÓLARES</measure>.                    
+                 </cbml:balloon>  
+                 <note type="panelDesc"> lateral shot from outside balcony shows professor
+                    sitting at his desk, with bookshelf on his right, and staring ahead.
+                 </note>
+              </cbml:panel>
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0022">           
+              <cbml:panel n="1" characters="#profesor">
+                 <cbml:caption who="#profesor"> 
+                    SIN EMBARGO EL PROCESO DE ENDEUDAMIENTO EXTERNO SIGNIFICÓ LA OPORTUNIDAD DE GANANCIAS ESPECULATIVAS  <lb/>
+                    MUY IMPORTANTES PARA EL GRUPO DE EMPRESAS PRIVADAS QUE LO PROTAGONIZÓ, NO SOLAMENTE POR EL ACCESO AL  <lb/>
+                    FINANCIAMIENTO INTERNACIONAL A BAJO INTERÉS, SINO PORQUE EL SECTOR PÚBLICO ASUMIÓ COSTOS PARA QUE EL  <lb/>
+                    SECTOR PRIVADO OBTUVIERA GANANCIAS; ESTA TRANSFERENCIA SE REALIZÓ MEDIANTE MECANISMOS TALES COMO LOS  <lb/>
+                    SEGUROS DE CAMBIO Y LA ESTATIZACIÓN DE LA DEUDA PRIVADA. 
+                 </cbml:caption> 
+                 <table rows="6" cols="4">
+                    <row role="data">
+                       <cell role="label">dolar</cell>
+                       <cell role="data">3.09</cell>
+                       <cell role="data">2.99</cell>
+                       <cell role="data">↑</cell>
+                    </row>
+                    <row role="data">
+                       <cell role="label">euro</cell>
+                       <cell role="data">3.80</cell>
+                       <cell role="data">3.50</cell>
+                       <cell role="data">↑</cell>
+                    </row>
+                    <row role="data">
+                       <cell role="label">yen</cell>
+                       <cell role="data">16.00</cell>
+                       <cell role="data">19.00</cell>
+                       <cell role="data">↓</cell>
+                    </row>
+                    <row role="data">
+                       <cell role="label">libra</cell>
+                       <cell role="data">4.50</cell>
+                       <cell role="data">5.50</cell>
+                       <cell role="data">−</cell>
+                    </row>
+                    <row role="data">
+                       <cell role="label">lira</cell>
+                       <cell role="data">1.50</cell>
+                       <cell role="data">4.70</cell>
+                       <cell role="data">−</cell>
+                    </row>
+                    <row role="data">
+                       <cell role="label">rublo</cell>
+                       <cell role="data">4.00</cell>
+                       <cell role="data">4.50</cell>
+                       <cell role="data">↓</cell>
+                    </row>
+                 </table>
+                 <floatingText subtype="label" type="diegetic">
+                    <body>
+                       <ab>
+                          BANCA TRANSNACIONAL
+                       </ab>
+                    </body>
+                 </floatingText>
+                 <cbml:balloon type="speech" who="#profesor"> 
+                    ESTA ESTATIZACIÓN COMENZÓ A TRAVÉS DEL  <lb/>
+                    ENDEUDAMIENTO DE LAS EMPRESAS PÚBLICAS <lb/>
+                    AL SOLO EFECTO DE CEDER ESOS DÓLARES AL <lb/>
+                    BANCO CENTRAL, PARA QUE ÉSTE LOS ENTRE- <lb/>
+                    GARA A LOS ESPECULADORES, DESEOSOS DE <lb/>
+                    TRANSFORMAR SUS SALDOS EN PESOS EN  <lb/>
+                    ACTIVOS EXTERNOS; DE ESTA MANERA AUMEN- <lb/>
+                    TABAN LOS PASIVOS EXTERNOS DEL SECTOR  <lb/>
+                    PÚBLICO (DEUDA EXTERNA) Y AUMENTABAN <lb/>
+                    TAMBIÉN LOS ACTIVOS EXTERNOS DEL SECTOR <lb/> 
+                    PRIVADO.                    
+                 </cbml:balloon>                 
+                 <note type="panelDesc"> 
+                    Cycle graph shows process connecting a factory, a government building,
+                    the currency chart, and the transnational banks, all of them connected
+                    by green arrrows bearing a $ sign
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor #uncle_sam #militar #capitalista #prisioneros">
+                 <cbml:caption who="#profesor"> 
+                    <country>EEUU</country> Y LA BANCA TRANSNACIONAL PUSIERON TODA SU PRESIÓN POLÍTICA Y ECONÓMICA PARA OBLIGAR A LOS PAÍSES A   <lb/>
+                    PAGAR. SI LOS PAÍSES NO PAGABAN SE PODÍA DERRUMBAR EL SISTEMA FINANCIERO INTERNACIONAL. COMO NO TENÍAN   <lb/>
+                    CON QUÉ, TUVIERON QUE ENDEUDARSE MÁS Y MÁS. SE PRODUJO ASÍ UN EFECTO “BOLA DE NIEVE”, EN EL QUE LOS NUEVOS   <lb/>
+                    CRÉDITOS ENGROSABAN LA DEUDA, CRECÍAN LOS INTERESES A PAGAR, Y SE REQUERÍAN CRÉDITOS MAYORES.  <lb/>
+                    ADEMÁS, SE PRESIONÓ, CON ÉXITO, A LOS PAÍSES LATINOAMERICANOS PARA QUE EL ESTADO SE HICIERA CARGO DE LAS   <lb/>
+                    DEUDAS PRIVADAS.
+                 </cbml:caption>
+                 <cbml:caption who="#profesor"> 
+                    Y AHORA EL ACREEDOR YA NO SE CONFORMABA CON  <lb/>
+                    QUE EL DEUDOR TRATARA DE PAGARLE. TAMBIÉN  <lb/>
+                    QUERÍA QUE HICIERA “AJUSTES” ESTRUCTURALES, ES  <lb/> 
+                    DECIR, QUE IMPLANTARA LAS PAUTAS DE POLÍTICA  <lb/>
+                    ECONÓMICA QUE LE FIJABA EL                     
+                    <name type="org">
+                       FMI
+                    </name>: QUE PRIVATIZARA  <lb/>
+                    LAS EMPRESAS PÚBLICAS, ABRIERA LA ECONOMÍA,  <lb/>
+                    REBAJARA SALARIOS REALES, REDUJERA  <lb/>
+                    DRÁSTICAMENTE EL GASTO PÚBLICO.
+                 </cbml:caption>
+                 <note type="panelDesc">               
+                    XWS shows an obese Uncle Sam about to eat a naked prisoner on the right of the frame, 
+                    with the Statue of Liberty, Sky scrapers, and a flag of the US in the background.  The
+                    front of the frame is covered in bones and skulls in front of Uncle Sam. The prioners are
+                    being guarded by a soldier as they file toward their fate. On the top left of the frame, 
+                    we see presumably an Argentine dictator overseeing the events with a smile on his face, while a man
+                    with a briefcase overflowing with cash walks behind him and toward a coconut palm tropical 
+                    destination on the left. 
+                 </note>
+              </cbml:panel>
+           </div>
+           <pb/>
+           <div type="panelGrp" xml:id="eg_0023">           
+              <cbml:panel n="1" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    HEMOS LLEGADO HASTA ESTE PUNTO  <lb/>
+                    EN EL QUE YA SABEMOS BASTANTE <lb/>
+                    ACERCA DE CÓMO SE DIO INICIO  <lb/>
+                    AL ENDEUDAMIENTO EXTERNO.                    
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Lateral WS shows professor searching through bookshelves in his office.
+                    He has a book in each hand, and there are papers flying everywhere. His
+                    desk is in the foreground, and the videocamera is seen at the bottom
+                    left on top of the computer monitor. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="2" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    ADEMÁS DE PROCURAR SABER SI ESTE  <lb/>
+                    MONTO TIENDE A BAJAR O A SUBIR, Y  <lb/>
+                    ADEMÁS PARA QUÉ SE LO UTILIZÓ.
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Lateral WS shows professor seeming to think with a hand to his face while
+                    he faces the bookshelves in his office.
+                    Papers are flying everywhere. His desk is still in the foreground, and 
+                    the videocamera is seen at the bottom left on top of the computer monitor. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="3" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    A TAL FIN REALIZAREMOS UN ANÁLISIS <lb/>
+                    EN EL QUE RECONOCEMOS DOS ETAPAS <lb/>
+                    DE LA DEUDA EXTERNA ARGENTINA:                    
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Lateral WS shows professor still facing the bookshelves in his office.
+                    Right hand is on his hip, while left hand browses through a shelf. 
+                    His desk is still in the foreground, and the videocamera is seen at the bottom left on top of the computer monitor. 
+               </note>
+              </cbml:panel>
+              <cbml:panel n="4" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    LA DEUDA VIEJA, AQUELLA <lb/>
+                    CONTRAÍDA ENTRE <date when="1976">1976</date> Y <date when="1983">1983</date>                    
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Lateral WS shows professor still facing the bookshelves in his office.
+                    Right hand is holding a blue book. Papers are scattered on the floor. 
+                    His desk is still in the foreground, and the videocamera is seen at the bottom left on top of the computer monitor. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="5" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    Y LA DEUDA NUEVA
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Lateral WS shows professor now facing the videocamera in his office while 
+                    holding a blue book in his right hand and a brown one in his left. Papers are scattered on the floor. 
+                    His desk is still in the foreground, and the videocamera is seen at the bottom left on top of the computer monitor. 
+                 </note>
+              </cbml:panel>
+              <cbml:panel n="6" characters="#profesor">
+                 <cbml:balloon type="speech" who="#profesor">
+                    AQUELLA CONTRAÍDA  <lb/>
+                    ENTRE <date when="1991">1991</date> Y <date when="1999">1999</date> .
+                 </cbml:balloon>
+                 <note type="panelDesc"> 
+                    Frontal WS shows professor facing the videocamera at his desk with his 
+                    hands on top of the two books now placed on the desk. 
+                    His desk is still in the foreground, and the videocamera is seen at the bottom left on top of the computer monitor. 
+                 </note>
+              </cbml:panel>
+           </div>           
+           <pb/>         
+        </div>
+     </div>
+     </body>
+  </text>
+</TEI>
